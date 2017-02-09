@@ -1,0 +1,45 @@
+@import 'common';
+
+.main {
+    #content {
+        height: 870px;
+        background-color: orange;
+        .container-fluid {
+            > .row {
+                > div {
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
+// 메인 슬라이더
+.visual-slider {
+    height: 870px;
+    background-color: cornflowerblue;
+}
+
+// 제품 현황 및 견적
+.layout-prame {
+    overflow: hidden;
+    > div {
+        float: left;
+        height: 435px;
+        &.product {
+            width: 70%;
+            background-color: beige;
+        }
+        &.counsel {
+            width: 30%;
+            background-color: burlywood;
+        }
+        &.location {
+            width: 30%;
+            background-color: aquamarine;
+        }
+        &.map {
+            width: 70%;
+            background-color: dodgerblue;
+        }
+    }
+}
