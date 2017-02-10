@@ -3,7 +3,6 @@
 .main {
     #content {
         height: 870px;
-        background-color: orange;
         .container-fluid {
             > .row {
                 > div {
@@ -13,10 +12,112 @@
         }
     }
 }
+.skip-nav {
+    display: block;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    background-color: #a5be1e;
+}
 // 메인 슬라이더
 .visual-slider {
     height: 870px;
-    background-color: cornflowerblue;
+    .main-slider {
+        li {
+            display: table;
+            width: 100%;
+            height: 870px;
+            .mk-country {
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+                h2 {
+                    font-size: 70px;
+                    color: #fff;
+                    font-weight: 500;
+                    @include mont();
+                    @media(max-width: 1400px) {
+                        font-size: 60px;
+                    }
+                    small {
+                        display: block;
+                        font-size: 60px;
+                        color: #fff;
+                        font-weight: 300;
+                        margin-top: 10px;
+                        @media(max-width: 1400px) {
+                            font-size: 50px;
+                        }
+                    }
+                }
+                i {
+                    display: inline-block;
+                    font-size: 30px;
+                    color: #fff;
+                    margin-top: 30px;
+                    @include mont();
+                    @media(max-width: 1400px) {
+                        font-size: 24px;
+                    }
+                }
+            }
+            &.first {
+                background-image: url(/assets/images/main_visual_img01.jpg);
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+                background-size: cover;
+            }
+            &.second {
+                background-image: url(/assets/images/main_visual_img02.jpg);
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+                background-size: cover;
+            }
+            &.third {
+                background-image: url(/assets/images/main_visual_img03.jpg);
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+                background-size: cover;
+            }
+            &.fourthly {
+                background-image: url(/assets/images/main_visual_img04.jpg);
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+                background-size: cover;
+            }
+        }
+    }
+    .bx-wrapper {
+        position: relative;
+        .bx-controls {
+            position: absolute;
+            bottom: 67px;
+            height: 14px;
+            left: 50%;
+            margin-left: -48px;
+            .bx-pager {
+                text-align: center;
+                .bx-pager-item {
+                    display: inline-block;
+                    margin: 0 5px;
+                    a {
+                        text-indent: -9999px;
+                        display: block;
+                        width: 14px;
+                        height: 14px;
+                        border: 3px solid #fff;
+                        border-radius: 50%;
+                        &.active {
+                            background-color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 // 제품 현황 및 견적
@@ -26,20 +127,230 @@
         float: left;
         height: 435px;
         &.product {
-            width: 70%;
-            background-color: beige;
+            width: 65%;
+            a {
+                display: table;
+                width: 100%;
+                height: 100%;
+                background-image: url(/assets/images/product_bg.jpg);
+                background-repeat: no-repeat;
+                background-position: 60% 50%;
+                background-size: auto 100%;
+                div {
+                    display: table-cell;
+                    text-align: center;
+                    vertical-align: middle;
+                    h3 {
+                        font-size: 60px;
+                        color: #303030;
+                        font-weight: 500;
+                        @include mont();
+                        @media(max-width: 1400px) {
+                            font-size: 50px;
+                        }
+                        small {
+                            display: block;
+                            font-size: 24px;
+                            font-weight: 300;
+                            opacity: .6;
+                            color: #303030;
+                            margin-bottom: 10px;
+                            @media(max-width: 1400px) {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                    p {
+                        font-size: 18px;
+                        color: #303030;
+                        font-weight: 400;
+                        margin-top: 25px;
+                        b {
+                            font-weight: 500;
+                        }
+                        @media(max-width: 1400px) {
+                            font-size: 14px;
+                        }
+                    }
+                }
+                &:hover,&:focus {
+                    background: #9cb71b;
+                    transition: background .8s;
+                    -webkit-transition: background .8s;
+                    -moz-transition: background .8s;
+                    -o-transition: background .8s;
+                    h3 {
+                        color: #fff;
+                        transition: color .5s;
+                        -webkit-transition: color .5s;
+                        -moz-transition: color .5s;
+                        -o-transition: color .5s;
+                        small {
+                            color: #fff;
+                            transition: color .5s;
+                            -webkit-transition: color .5s;
+                            -moz-transition: color .5s;
+                            -o-transition: color .5s;
+                        }
+                    }
+                    p {
+                        color: #fff;
+                        transition: color .5s;
+                        -webkit-transition: color .5s;
+                        -moz-transition: color .5s;
+                        -o-transition: color .5s;
+                    }
+                }
+            }
         }
         &.counsel {
-            width: 30%;
-            background-color: burlywood;
+            width: 35%;
+            a {
+                display: table;
+                width: 100%;
+                height: 100%;
+                padding: 0 20px;
+                background-image: url(/assets/images/counsel_bg.jpg);
+                background-repeat: no-repeat;
+                background-position: 100% 50%;
+                background-size: auto 100%;
+                div {
+                    display: table-cell;
+                    text-align: center;
+                    vertical-align: middle;
+                    h3 {
+                        font-size: 36px;
+                        color: #fff;
+                        font-weight: 500;
+                        @include mont();
+                        @media(max-width: 1400px) {
+                            font-size: 28px;
+                        }
+                        small {
+                            display: block;
+                            font-size: 16px;
+                            font-weight: 300;
+                            color: #fff;
+                            opacity: .6;
+                            margin-bottom: 10px;
+                            @media(max-width: 1400px) {
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                    p {
+                        font-size: 16px;
+                        color: #fff;
+                        font-weight: 400;
+                        margin-top: 25px;
+                        line-height: 26px;
+                        b {
+                            font-weight: 500;
+                        }
+                        @media(max-width: 1400px) {
+                            font-size: 13px;
+                        }
+                    }
+                }
+                &:hover,&:focus {
+                    background: #9cb71b;
+                    transition: background .8s;
+                    -webkit-transition: background .8s;
+                    -moz-transition: background .8s;
+                    -o-transition: background .8s;
+                }
+            }
         }
         &.location {
-            width: 30%;
-            background-color: aquamarine;
+            width: 35%;
+            display: table;
+            padding: 0 25px;
+            background-color: rgba(151, 167, 106, .9);
+            @media(max-width: 1400px) {
+                padding: 0 20px;
+            }
+            .information {
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+                h3 {
+                    width: 100%;
+                    font-size: 36px;
+                    color: #fff;
+                    font-weight: 500;
+                    @include mont();
+                    padding-bottom: 150px;
+                    border-bottom: 1px solid rgba(255, 255, 255, .4);
+                    background-image: url(/assets/images/location_ico_img.png);
+                    background-repeat: no-repeat;
+                    background-position: 50% 106px;
+                    @media(max-width: 1400px) {
+                        font-size: 30px;
+                    }
+                    small {
+                        display: block;
+                        font-size: 16px;
+                        color: #fff;
+                        opacity: .6;
+                        font-weight: 300;
+                        margin-bottom: 10px;
+                        @media(max-width: 1400px) {
+                            font-size: 14px;
+                        }
+                    }
+                }
+                address {
+                    padding-top: 30px;
+                    font-size: 14px;
+                    color: #fff;
+                    opacity: .6;
+                    letter-spacing: -.5px;
+                    @media(max-width: 1400px) {
+                        font-size: 12px;
+                    }
+                }
+                p {
+                    color: #fff;
+                    @include mont();
+                    padding-top: 5px;
+                    &.call {
+                        font-size: 28px;
+                        font-weight: 500;
+                        letter-spacing: -.5px;
+                        @media(max-width: 1400px) {
+                            font-size: 24px;
+                        }
+                    }
+                    &.fax {
+                        font-size: 14px;
+                        font-weight: 400;
+                        @media(max-width: 1400px) {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
         }
         &.map {
-            width: 70%;
-            background-color: dodgerblue;
+            width: 65%;
+            a {
+                display: block;
+                width: 100%;
+                height: 100%;
+                &:hover,&:focus {
+                    background-color: rgba(255,255,255, .4);
+                    transition: background-color .8s;
+                    -webkit-transition: background-color .8s;
+                    -moz-transition: background-color .8s;
+                    -o-transition: background-color .8s;
+                }
+            }
         }
+    }
+    &.main-map {
+        background-image: url(/assets/images/main_map.jpg);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        background-position: 50% 50%;
     }
 }

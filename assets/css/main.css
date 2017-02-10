@@ -23,14 +23,98 @@ a:hover, a:focus {
   text-decoration: none; }
 
 .main #content {
-  height: 870px;
-  background-color: orange; }
+  height: 870px; }
   .main #content .container-fluid > .row > div {
     padding: 0; }
 
+.skip-nav {
+  display: block;
+  width: 100%;
+  height: 30px;
+  font-size: 16px;
+  color: #fff;
+  line-height: 30px;
+  text-align: center;
+  background-color: #a5be1e; }
+
 .visual-slider {
-  height: 870px;
-  background-color: cornflowerblue; }
+  height: 870px; }
+  .visual-slider .main-slider li {
+    display: table;
+    width: 100%;
+    height: 870px; }
+    .visual-slider .main-slider li .mk-country {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center; }
+      .visual-slider .main-slider li .mk-country h2 {
+        font-size: 70px;
+        color: #fff;
+        font-weight: 500;
+        font-family: 'Montserrat', serif; }
+        @media (max-width: 1400px) {
+          .visual-slider .main-slider li .mk-country h2 {
+            font-size: 60px; } }
+        .visual-slider .main-slider li .mk-country h2 small {
+          display: block;
+          font-size: 60px;
+          color: #fff;
+          font-weight: 300;
+          margin-top: 10px; }
+          @media (max-width: 1400px) {
+            .visual-slider .main-slider li .mk-country h2 small {
+              font-size: 50px; } }
+      .visual-slider .main-slider li .mk-country i {
+        display: inline-block;
+        font-size: 30px;
+        color: #fff;
+        margin-top: 30px;
+        font-family: 'Montserrat', serif; }
+        @media (max-width: 1400px) {
+          .visual-slider .main-slider li .mk-country i {
+            font-size: 24px; } }
+    .visual-slider .main-slider li.first {
+      background-image: url(/assets/images/main_visual_img01.jpg);
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover; }
+    .visual-slider .main-slider li.second {
+      background-image: url(/assets/images/main_visual_img02.jpg);
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover; }
+    .visual-slider .main-slider li.third {
+      background-image: url(/assets/images/main_visual_img03.jpg);
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover; }
+    .visual-slider .main-slider li.fourthly {
+      background-image: url(/assets/images/main_visual_img04.jpg);
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      background-size: cover; }
+  .visual-slider .bx-wrapper {
+    position: relative; }
+    .visual-slider .bx-wrapper .bx-controls {
+      position: absolute;
+      bottom: 67px;
+      height: 14px;
+      left: 50%;
+      margin-left: -48px; }
+      .visual-slider .bx-wrapper .bx-controls .bx-pager {
+        text-align: center; }
+        .visual-slider .bx-wrapper .bx-controls .bx-pager .bx-pager-item {
+          display: inline-block;
+          margin: 0 5px; }
+          .visual-slider .bx-wrapper .bx-controls .bx-pager .bx-pager-item a {
+            text-indent: -9999px;
+            display: block;
+            width: 14px;
+            height: 14px;
+            border: 3px solid #fff;
+            border-radius: 50%; }
+            .visual-slider .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active {
+              background-color: #fff; }
 
 .layout-prame {
   overflow: hidden; }
@@ -38,16 +122,199 @@ a:hover, a:focus {
     float: left;
     height: 435px; }
     .layout-prame > div.product {
-      width: 70%;
-      background-color: beige; }
+      width: 65%; }
+      .layout-prame > div.product a {
+        display: table;
+        width: 100%;
+        height: 100%;
+        background-image: url(/assets/images/product_bg.jpg);
+        background-repeat: no-repeat;
+        background-position: 60% 50%;
+        background-size: auto 100%; }
+        .layout-prame > div.product a div {
+          display: table-cell;
+          text-align: center;
+          vertical-align: middle; }
+          .layout-prame > div.product a div h3 {
+            font-size: 60px;
+            color: #303030;
+            font-weight: 500;
+            font-family: 'Montserrat', serif; }
+            @media (max-width: 1400px) {
+              .layout-prame > div.product a div h3 {
+                font-size: 50px; } }
+            .layout-prame > div.product a div h3 small {
+              display: block;
+              font-size: 24px;
+              font-weight: 300;
+              opacity: .6;
+              color: #303030;
+              margin-bottom: 10px; }
+              @media (max-width: 1400px) {
+                .layout-prame > div.product a div h3 small {
+                  font-size: 20px; } }
+          .layout-prame > div.product a div p {
+            font-size: 18px;
+            color: #303030;
+            font-weight: 400;
+            margin-top: 25px; }
+            .layout-prame > div.product a div p b {
+              font-weight: 500; }
+            @media (max-width: 1400px) {
+              .layout-prame > div.product a div p {
+                font-size: 14px; } }
+        .layout-prame > div.product a:hover, .layout-prame > div.product a:focus {
+          background: #9cb71b;
+          transition: background .8s;
+          -webkit-transition: background .8s;
+          -moz-transition: background .8s;
+          -o-transition: background .8s; }
+          .layout-prame > div.product a:hover h3, .layout-prame > div.product a:focus h3 {
+            color: #fff;
+            transition: color .5s;
+            -webkit-transition: color .5s;
+            -moz-transition: color .5s;
+            -o-transition: color .5s; }
+            .layout-prame > div.product a:hover h3 small, .layout-prame > div.product a:focus h3 small {
+              color: #fff;
+              transition: color .5s;
+              -webkit-transition: color .5s;
+              -moz-transition: color .5s;
+              -o-transition: color .5s; }
+          .layout-prame > div.product a:hover p, .layout-prame > div.product a:focus p {
+            color: #fff;
+            transition: color .5s;
+            -webkit-transition: color .5s;
+            -moz-transition: color .5s;
+            -o-transition: color .5s; }
     .layout-prame > div.counsel {
-      width: 30%;
-      background-color: burlywood; }
+      width: 35%; }
+      .layout-prame > div.counsel a {
+        display: table;
+        width: 100%;
+        height: 100%;
+        padding: 0 20px;
+        background-image: url(/assets/images/counsel_bg.jpg);
+        background-repeat: no-repeat;
+        background-position: 100% 50%;
+        background-size: auto 100%; }
+        .layout-prame > div.counsel a div {
+          display: table-cell;
+          text-align: center;
+          vertical-align: middle; }
+          .layout-prame > div.counsel a div h3 {
+            font-size: 36px;
+            color: #fff;
+            font-weight: 500;
+            font-family: 'Montserrat', serif; }
+            @media (max-width: 1400px) {
+              .layout-prame > div.counsel a div h3 {
+                font-size: 28px; } }
+            .layout-prame > div.counsel a div h3 small {
+              display: block;
+              font-size: 16px;
+              font-weight: 300;
+              color: #fff;
+              opacity: .6;
+              margin-bottom: 10px; }
+              @media (max-width: 1400px) {
+                .layout-prame > div.counsel a div h3 small {
+                  font-size: 13px; } }
+          .layout-prame > div.counsel a div p {
+            font-size: 16px;
+            color: #fff;
+            font-weight: 400;
+            margin-top: 25px;
+            line-height: 26px; }
+            .layout-prame > div.counsel a div p b {
+              font-weight: 500; }
+            @media (max-width: 1400px) {
+              .layout-prame > div.counsel a div p {
+                font-size: 13px; } }
+        .layout-prame > div.counsel a:hover, .layout-prame > div.counsel a:focus {
+          background: #9cb71b;
+          transition: background .8s;
+          -webkit-transition: background .8s;
+          -moz-transition: background .8s;
+          -o-transition: background .8s; }
     .layout-prame > div.location {
-      width: 30%;
-      background-color: aquamarine; }
+      width: 35%;
+      display: table;
+      padding: 0 25px;
+      background-color: rgba(151, 167, 106, 0.9); }
+      @media (max-width: 1400px) {
+        .layout-prame > div.location {
+          padding: 0 20px; } }
+      .layout-prame > div.location .information {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center; }
+        .layout-prame > div.location .information h3 {
+          width: 100%;
+          font-size: 36px;
+          color: #fff;
+          font-weight: 500;
+          font-family: 'Montserrat', serif;
+          padding-bottom: 150px;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+          background-image: url(/assets/images/location_ico_img.png);
+          background-repeat: no-repeat;
+          background-position: 50% 106px; }
+          @media (max-width: 1400px) {
+            .layout-prame > div.location .information h3 {
+              font-size: 30px; } }
+          .layout-prame > div.location .information h3 small {
+            display: block;
+            font-size: 16px;
+            color: #fff;
+            opacity: .6;
+            font-weight: 300;
+            margin-bottom: 10px; }
+            @media (max-width: 1400px) {
+              .layout-prame > div.location .information h3 small {
+                font-size: 14px; } }
+        .layout-prame > div.location .information address {
+          padding-top: 30px;
+          font-size: 14px;
+          color: #fff;
+          opacity: .6;
+          letter-spacing: -.5px; }
+          @media (max-width: 1400px) {
+            .layout-prame > div.location .information address {
+              font-size: 12px; } }
+        .layout-prame > div.location .information p {
+          color: #fff;
+          font-family: 'Montserrat', serif;
+          padding-top: 5px; }
+          .layout-prame > div.location .information p.call {
+            font-size: 28px;
+            font-weight: 500;
+            letter-spacing: -.5px; }
+            @media (max-width: 1400px) {
+              .layout-prame > div.location .information p.call {
+                font-size: 24px; } }
+          .layout-prame > div.location .information p.fax {
+            font-size: 14px;
+            font-weight: 400; }
+            @media (max-width: 1400px) {
+              .layout-prame > div.location .information p.fax {
+                font-size: 12px; } }
     .layout-prame > div.map {
-      width: 70%;
-      background-color: dodgerblue; }
+      width: 65%; }
+      .layout-prame > div.map a {
+        display: block;
+        width: 100%;
+        height: 100%; }
+        .layout-prame > div.map a:hover, .layout-prame > div.map a:focus {
+          background-color: rgba(255, 255, 255, 0.4);
+          transition: background-color .8s;
+          -webkit-transition: background-color .8s;
+          -moz-transition: background-color .8s;
+          -o-transition: background-color .8s; }
+  .layout-prame.main-map {
+    background-image: url(/assets/images/main_map.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: 50% 50%; }
 
 /*# sourceMappingURL=main.css.map */
