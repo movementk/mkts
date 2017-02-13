@@ -1,3 +1,4 @@
+@charset "UTF-8";
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0; }
@@ -21,5 +22,160 @@ address {
 
 a:hover, a:focus {
   text-decoration: none; }
+
+.sub #header {
+  border-top: 3px solid #a5be1e;
+  border-bottom: 0; }
+  .sub #header #gnb {
+    height: 80px;
+    width: 100%; }
+    .sub #header #gnb .logo {
+      left: 30px; }
+    .sub #header #gnb .gnb-menu li a {
+      line-height: 80px; }
+    .sub #header #gnb .quick-menu {
+      right: 30px; }
+.sub main {
+  min-height: 650px;
+  background-image: url(/assets/images/sub/sub_body_bg.gif); }
+.sub #footer .policy ul {
+  width: 100%;
+  padding-left: 30px; }
+.sub #footer .company {
+  width: 100%;
+  padding-left: 30px; }
+
+/* lnb 헤더 영역 */
+.page-header {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-image: url(/assets/images/sub/page_header_bg01.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover; }
+  .page-header > h2 {
+    font-size: 57px;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 80px;
+    text-shadow: 0px 0px 6px #000; }
+  .page-header > p {
+    font-size: 16px;
+    color: #fff;
+    opacity: .6;
+    margin-top: 26px;
+    padding-bottom: 80px; }
+  .page-header .lnb {
+    border-top: 1px solid rgba(255, 255, 255, 0.2); }
+    .page-header .lnb ul {
+      font-size: 0; }
+      .page-header .lnb ul li {
+        width: 25%;
+        display: inline-block; }
+        .page-header .lnb ul li a {
+          margin-top: -1px;
+          display: block;
+          border-top: 1px solid rgba(255, 255, 255, 0.2);
+          font-size: 16px;
+          color: #fff;
+          line-height: 57px; }
+        .page-header .lnb ul li.active a {
+          border-top: 1px solid #a5be1e;
+          color: #a5be1e; }
+
+/* page-title */
+.page-title {
+  position: relative;
+  text-align: center;
+  padding-top: 80px; }
+  .page-title .breadcrumb {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    font-size: 0;
+    padding: 0;
+    margin: 0;
+    background: none; }
+    .page-title .breadcrumb li {
+      font-size: 13px;
+      color: #aaa; }
+      .page-title .breadcrumb li a .icon-home {
+        color: #a5be1e; }
+      .page-title .breadcrumb li:first-child:before {
+        content: ""; }
+      .page-title .breadcrumb li:before {
+        content: "\E803";
+        font-family: "fontello";
+        padding: 0 10px;
+        color: #aaa;
+        font-size: 13px; }
+  .page-title small {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif; }
+  .page-title hr {
+    display: block;
+    width: 42px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-top: 2px solid #999; }
+  .page-title .title {
+    font-size: 36px;
+    color: #070c13; }
+  .page-title > p {
+    font-size: 24px;
+    color: #585858;
+    margin-top: 70px; }
+
+/* history-list */
+.history-info .col-xs-offset-1 {
+  padding-left: 0; }
+.history-info .history-list {
+  margin-bottom: 90px; }
+  .history-info .history-list h4 {
+    font-size: 44px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 45px;
+    font-family: 'Lato', sans-serif; }
+  .history-info .history-list ol {
+    width: 500px; }
+    .history-info .history-list ol li {
+      width: 100%;
+      padding: 20px 0;
+      border-bottom: 1px solid #ddd; }
+      .history-info .history-list ol li:first-child {
+        padding-top: 0; }
+      .history-info .history-list ol li:last-child {
+        border-bottom: 0;
+        padding-bottom: 0; }
+      .history-info .history-list ol li dl {
+        position: relative; }
+        .history-info .history-list ol li dl dt {
+          position: absolute;
+          top: 0;
+          left: 0;
+          font-size: 16px;
+          color: #333;
+          font-weight: bold;
+          line-height: 30px;
+          letter-spacing: -1px;
+          font-family: 'Lato', sans-serif; }
+        .history-info .history-list ol li dl dd {
+          font-size: 16px;
+          color: #666;
+          line-height: 30px;
+          font-weight: 300;
+          vertical-align: top;
+          padding-left: 75px; }
+  .history-info .history-list.list-2 {
+    margin-bottom: 0;
+    padding-left: 55px; }
+.history-info .figure {
+  padding-top: 55px; }
 
 /*# sourceMappingURL=sub.css.map */

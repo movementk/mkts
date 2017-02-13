@@ -1,0 +1,88 @@
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+p {
+  margin-bottom: 0; }
+
+ul, ol {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none; }
+
+dl {
+  margin-bottom: 0; }
+
+address {
+  margin-bottom: 0; }
+
+.form-group {
+  margin-bottom: 0; }
+
+a:hover, a:focus {
+  text-decoration: none; }
+
+.greeting {
+  font-size: 0;
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 135px; }
+  .greeting figure img {
+    display: block;
+    margin: 0 auto; }
+  .greeting .greeting-txt {
+    display: inline-block;
+    width: 480px;
+    padding-top: 67px;
+    vertical-align: top;
+    text-align: justify; }
+    .greeting .greeting-txt:nth-of-type(2) {
+      padding-top: 164px;
+      margin-left: 90px; }
+    .greeting .greeting-txt h4 {
+      font-size: 27px;
+      color: #666;
+      font-weight: 300;
+      line-height: 36px;
+      margin-bottom: 25px; }
+      .greeting .greeting-txt h4 i {
+        display: block;
+        font-style: normal;
+        font-weight: 400;
+        color: #9b7e58; }
+    .greeting .greeting-txt p {
+      font-size: 16px;
+      color: #666;
+      font-weight: 400;
+      line-height: 30px; }
+      .greeting .greeting-txt p + p {
+        margin-top: 45px; }
+      .greeting .greeting-txt p b {
+        font-weight: 500;
+        color: #333; }
+  .greeting dl {
+    display: block;
+    width: 1050px;
+    font-size: 0;
+    text-align: right;
+    margin: 0 auto;
+    margin-top: 35px; }
+    .greeting dl dt {
+      display: inline-block;
+      font-size: 16px;
+      color: #333;
+      font-weight: 400;
+      margin-right: 6px; }
+    .greeting dl dd {
+      display: inline-block;
+      font-size: 21px;
+      color: #333;
+      font-weight: bold;
+      font-family: 'Jeju Myeongjo', serif; }
+      .greeting dl dd small {
+        font-size: 16px;
+        color: #333;
+        font-weight: 400;
+        font-family: 'Noto Sans KR', sans-serif; }
+
+/*# sourceMappingURL=introduce.css.map */

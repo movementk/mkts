@@ -1,2 +1,265 @@
 @import 'common';
 
+.sub {
+    #header {
+        border-top: 3px solid #a5be1e;
+        border-bottom: 0;
+        #gnb {
+            height: 80px;
+            width: 100%;
+            .logo {
+                left: 30px;
+            }
+            .gnb-menu {
+                li {
+                    a {
+                        line-height: 80px;
+                    }
+                }
+            }
+            .quick-menu {
+                right: 30px;
+            }
+        }
+    }
+    main {
+        min-height: 650px;
+        background-image: url(/assets/images/sub/sub_body_bg.gif);
+    }
+    #footer {
+        .policy {
+            ul {
+                width: 100%;
+                padding-left: 30px;
+            }
+        }
+        .company {
+            width: 100%;
+            padding-left: 30px;
+        }
+    }
+}
+/* lnb 헤더 영역 */
+.page-header {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(/assets/images/sub/page_header_bg01.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    > h2 {
+        font-size: 57px;
+        font-weight: 500;
+        color: #fff;
+        padding-top: 80px;
+        text-shadow: 0px 0px 6px #000;
+    }
+    > p {
+        font-size: 16px;
+        color: #fff;
+        opacity: .6;
+        margin-top: 26px;
+        padding-bottom: 80px;
+    }
+    .lnb {
+        border-top: 1px solid rgba(255, 255, 255, .2);
+        ul {
+            font-size: 0;
+            li {
+                width: 25%;
+                display: inline-block;
+                a {
+                    margin-top: -1px;
+                    display: block;
+                    border-top: 1px solid rgba(255, 255, 255, .2);
+                    font-size: 16px;
+                    color: #fff;
+                    line-height: 57px;
+                }
+                &.active {
+                    a {
+                        border-top: 1px solid #a5be1e;
+                        color: #a5be1e;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* page-title */
+.page-title {
+    position: relative;
+    text-align: center;
+    padding-top: 80px;
+    .breadcrumb {
+        position: absolute;
+        top: 80px;
+        right: 0;
+        font-size: 0;
+        padding: 0;
+        margin: 0;
+        background: none;
+        li {
+            font-size: 13px;
+            color: #aaa;
+            a {
+                .icon-home {
+                    color: #a5be1e;
+                }
+            }
+            &:first-child:before {
+                content: "";
+            }
+            &:before {
+                content: "\E803";
+                font-family: "fontello";
+                padding: 0 10px;
+                color: #aaa;
+                font-size: 13px;
+            }
+        }
+    }
+    small {
+        display: block;
+        font-size: 14px;
+        color: #666;
+        font-weight: 400;
+        @include lato();
+    }
+    hr {
+        display: block;
+        width: 42px;
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-top: 2px solid #999;
+    }
+    .title {
+        font-size: 36px;
+        color: #070c13;
+    }
+    > p {
+        font-size: 24px;
+        color: #585858;
+        margin-top: 70px;
+    }
+}
+
+/* history-list */
+.history-info {
+    .col-xs-offset-1 {
+        padding-left: 0;
+    }
+    .history-list {
+        margin-bottom: 90px;
+        h4 {
+            font-size: 44px;
+            color: #333;
+            font-weight: 600;
+            margin-bottom: 45px;
+            @include lato();
+        }
+        ol {
+            width: 500px;
+            li {
+                width: 100%;
+                padding: 20px 0;
+                border-bottom: 1px solid #ddd;
+                &:first-child {
+                    padding-top: 0;
+                }
+                &:last-child {
+                    border-bottom: 0;
+                    padding-bottom: 0;
+                }
+                dl {
+                    position: relative;
+                    dt {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        font-size: 16px;
+                        color: #333;
+                        font-weight: bold;
+                        line-height: 30px;
+                        letter-spacing: -1px;
+                        @include lato();
+                    }
+                    dd {
+                        font-size: 16px;
+                        color: #666;
+                        line-height: 30px;
+                        font-weight: 300;
+                        vertical-align: top;
+                        padding-left: 75px;
+                    }
+                }
+            }
+        }
+        &.list-2 {
+            margin-bottom: 0;
+            padding-left: 55px;
+        }
+    }
+    .figure {
+        padding-top: 55px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
