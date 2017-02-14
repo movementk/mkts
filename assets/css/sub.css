@@ -188,6 +188,37 @@ a:hover, a:focus {
     display: block;
     margin: 0 auto; }
 
-/* location */
+/* paging */
+.paging {
+  text-align: center; }
+  .paging .pagination {
+    height: 30px;
+    margin: 0;
+    display: inline-block; }
+    .paging .pagination li {
+      text-align: center; }
+      .paging .pagination li a {
+        display: block;
+        width: 30px;
+        height: 30px;
+        font-size: 15px;
+        font-weight: 400;
+        color: #888;
+        line-height: 30px;
+        padding: 0;
+        border: 0;
+        font-family: 'Lato', sans-serif;
+        background: none; }
+        .paging .pagination li a i {
+          display: inline-block;
+          font-size: 18px;
+          color: #9b7e58; }
+        .paging .pagination li a.angle-right {
+          margin-left: 10px; }
+        .paging .pagination li a.angle-left {
+          margin-right: 10px; }
+      .paging .pagination li.active a {
+        color: #fff;
+        background-color: #9b7e58; }
 
 /*# sourceMappingURL=sub.css.map */

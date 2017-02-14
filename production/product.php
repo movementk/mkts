@@ -111,6 +111,43 @@
                         </a>
                     </li>
                 </ul>
+                <nav class="paging" aria-label="Page navigation">
+                    <ul class="pagination">
+                        <li>
+                            <a href="#" aria-label="Previous">
+                                <i class="icon-angle-double-left">
+                                    <span class="sr-only">double-Previous</span>
+                                </i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="angle-left" aria-label="Previous">
+                                <i class="icon-angle-left" aria-hidden="true">
+                                    <span class="sr-only">Previous</span>
+                                </i>
+                            </a>
+                        </li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li>
+                            <a href="#" class="angle-right" aria-label="Next">
+                                <i class="icon-angle-right" aria-hidden="true">
+                                    <span class="sr-only">Next</span>
+                                </i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                                <i class="icon-angle-double-right" aria-hidden="true">
+                                    <span class="sr-only">double-Next</span>
+                                </i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div><!--//Container -->
     </main>

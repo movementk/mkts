@@ -223,30 +223,48 @@
     }
 }
 
-/* location */
-.location {
-    
+/* paging */
+.paging {
+    text-align: center;
+    .pagination {
+        height: 30px;
+        margin: 0;
+        display: inline-block;
+        li {
+            text-align: center;
+            a {
+                display: block;
+                width: 30px;
+                height: 30px;
+                font-size: 15px;
+                font-weight: 400;
+                color: #888;
+                line-height: 30px;
+                padding: 0;
+                border: 0;
+                @include lato();
+                background: none;
+                i {
+                    display: inline-block;
+                    font-size: 18px;
+                    color: #9b7e58;
+                }
+                &.angle-right {
+                    margin-left: 10px;
+                }
+                &.angle-left {
+                    margin-right: 10px;
+                }
+            }
+            &.active {
+                a {
+                    color: #fff;
+                    background-color: #9b7e58;
+                }
+            }
+        }
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

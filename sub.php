@@ -44,7 +44,7 @@
             
             <!-- History -->
             <div style="margin-top: 40px;">
-                <div class="history-info">
+                <div class="history">
                     <div class="row">
                         <div class="col-xs-5 col-xs-offset-1">
                             <p>
@@ -53,7 +53,7 @@
                         </div>
                         <div class="col-xs-6">
                             <div class="history-list">
-                                <h4>2000's</h4>
+                                <h4><b>2000</b>'s</h4>
                                 <ol>
                                     <li>
                                         <dl>
@@ -96,7 +96,7 @@
                         </div>
                         <div class="col-xs-6">
                             <div class="history-list list-2">
-                                <h4>1900's</h4>
+                                <h4><b>1900</b>'s</h4>
                                 <ol>
                                     <li>
                                         <dl>
@@ -145,6 +145,43 @@
                     </div>
                 </div>
             </div>
+            <nav class="paging" aria-label="Page navigation">
+                <ul class="pagination">
+                    <li>
+                        <a href="#" aria-label="Previous">
+                            <i class="icon-angle-double-left">
+                                <span class="sr-only">double-Previous</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="angle-left" aria-label="Previous">
+                            <i class="icon-angle-left" aria-hidden="true">
+                                <span class="sr-only">Previous</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li>
+                        <a href="#" class="angle-right" aria-label="Next">
+                            <i class="icon-angle-right" aria-hidden="true">
+                                <span class="sr-only">Next</span>
+                            </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Next">
+                            <i class="icon-angle-double-right" aria-hidden="true">
+                                <span class="sr-only">double-Next</span>
+                            </i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </div><!--//Container -->
     </main>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
