@@ -148,7 +148,7 @@
 }
 
 /* history-list */
-.history-info {
+.history {
     .col-xs-offset-1 {
         padding-left: 0;
     }
@@ -157,9 +157,12 @@
         h4 {
             font-size: 44px;
             color: #333;
-            font-weight: 600;
+            font-weight: 400;
             margin-bottom: 45px;
             @include lato();
+            b {
+                font-weight: 600;
+            }
         }
         ol {
             width: 500px;
@@ -208,11 +211,22 @@
     }
 }
 
+/* group */
+.group {
+    padding-top: 120px;
+    padding-bottom: 140px;
+    .figure {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
 
-
-
-
-
+/* location */
+.location {
+    
+}
 
 
 

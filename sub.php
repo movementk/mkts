@@ -48,7 +48,7 @@
                     <div class="row">
                         <div class="col-xs-5 col-xs-offset-1">
                             <p>
-                                <img src="/assets/images/history/history_img01.png" class="img-responsive" alt="">
+                                <img src="/assets/images/introduce/history_img01.png" class="img-responsive" alt="">
                             </p>
                         </div>
                         <div class="col-xs-6">
@@ -139,7 +139,7 @@
                         </div>
                         <div class="col-xs-6">
                             <p class="figure">
-                                <img src="/assets/images/history/history_img02.png" class="img-responsive" alt="">
+                                <img src="/assets/images/introduce/history_img02.png" class="img-responsive" alt="">
                             </p>
                         </div>
                     </div>

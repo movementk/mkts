@@ -13,16 +13,16 @@
                 <div class="container">
                     <ul>
                         <li class="active">
-                            <a href="#">인사말</a>
+                            <a href="/introduce/greeting.php">인사말</a>
                         </li>
                         <li>
-                            <a href="#">연혁</a>
+                            <a href="/introduce/history.php">연혁</a>
                         </li>
                         <li>
-                            <a href="#">조직도</a>
+                            <a href="/introduce/group.php">조직도</a>
                         </li>
                         <li>
-                            <a href="#">찾아오는길</a>
+                            <a href="/introduce/location.php">찾아오시는길</a>
                         </li>
                     </ul>
                 </div>
