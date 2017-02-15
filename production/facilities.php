@@ -45,7 +45,7 @@
                             </a>
                             <p>Flexo Print Sticker (4색)</p>
                         </li>
-                        <li class="active">
+                        <li>
                             <a href="#">
                                 <img src="/assets/images/production/test02.jpg" alt="">
                             </a>
@@ -84,20 +84,10 @@
                 maxSlides: 3,
                 moveSlides: 1,
                 slideMargin: 30,
-                autoHover: true,
                 nextText: '<span></span>',
                 prevText: '<span></span>',
-                onSlideNext: function($slideElement, oldIndex, newIndex) {
-                    console.log($slideElement, oldIndex, newIndex);
-                    //$slideElement.css('border', '1px solid black');
-                    //$('.product-list').find('li.active').removeClass('active');
-                    if (newIndex == 0) {
-                        $('.machine-list').find('li:last-child').prev().addClass('active');
-                    }
-                    $slideElement.next().addClass('active');
-                },
-                onSlidePrev: function($slideElement, oldIndex, newIndex) {
-                    $('.machine-list').find('li.active').removeClass('active');
+                onSlideAfter: function($slideElement, oldIndex, newIndex) {
+                    $('.machine-list li').removeClass('active');
                     $slideElement.next().addClass('active');
                 }
             });
