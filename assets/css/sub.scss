@@ -40,9 +40,9 @@ select {
             .logo {
                 left: 30px;
             }
-            .gnb-menu {
-                li {
-                    a {
+            .menu-list {
+                > li {
+                    > a {
                         line-height: 80px;
                     }
                 }

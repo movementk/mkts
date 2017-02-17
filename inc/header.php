@@ -3,11 +3,29 @@
 <header id="header">
     <nav id="gnb">
         <h1 class="logo"><a href="/"><img src="/assets/images/logo.jpg" alt="로고"></a></h1>
-        <ul class="gnb-menu">
-            <li><a href="#">회사소개</a></li>
-            <li><a href="#">생산</a></li>
-            <li><a href="#">견적의뢰</a></li>
-            <li><a href="#">공지사항</a></li>
+        <ul class="menu-list">
+            <li>
+                <a href="/introduce/greeting.php">회사소개</a>
+                <ul>
+                    <li><a href="/introduce/greeting.php">인사말</a></li>
+                    <li><a href="/introduce/history.php">연혁</a></li>
+                    <li><a href="/introduce/group.php">조직도</a></li>
+                    <li><a href="/introduce/location.php">찾아오시는길</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/production/facilities.php">생산</a>
+                <ul>
+                    <li><a href="/production/facilities.php">주요설비현황</a></li>
+                    <li><a href="/production/product.php">제품소개</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="/estimate/request_list.php">견적의뢰</a>
+            </li>
+            <li>
+                <a href="/notice/notice_list.php">공지사항</a>
+            </li>
         </ul>
         <div class="quick-menu">
             <ul>

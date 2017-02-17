@@ -58,7 +58,7 @@ select {
     width: 100%; }
     .sub #header #gnb .logo {
       left: 30px; }
-    .sub #header #gnb .gnb-menu li a {
+    .sub #header #gnb .menu-list > li > a {
       line-height: 80px; }
     .sub #header #gnb .quick-menu {
       right: 30px; }

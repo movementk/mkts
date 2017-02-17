@@ -61,18 +61,42 @@ body {
         display: block; }
         #header #gnb .logo a img {
           vertical-align: top; }
-    #header #gnb .gnb-menu {
+    #header #gnb .menu-list {
       overflow: hidden;
       display: inline-block; }
-      #header #gnb .gnb-menu > li {
+      #header #gnb .menu-list > li {
         float: left; }
-        #header #gnb .gnb-menu > li > a {
+        #header #gnb .menu-list > li > a {
           display: block;
+          width: 185px;
           font-size: 18px;
           color: #585858;
           line-height: 87px;
           font-weight: 400;
           padding: 0 59px; }
+        #header #gnb .menu-list > li > ul {
+          display: none; }
+          #header #gnb .menu-list > li > ul > li {
+            border-bottom: 1px solid #eee; }
+            #header #gnb .menu-list > li > ul > li:last-child {
+              border-bottom: 0; }
+            #header #gnb .menu-list > li > ul > li a {
+              display: block;
+              width: 185px;
+              height: 54px;
+              font-size: 15px;
+              color: #585858;
+              font-weight: 400;
+              text-align: left;
+              line-height: 54px;
+              padding-left: 25px;
+              background-color: #fff; }
+              #header #gnb .menu-list > li > ul > li a:hover, #header #gnb .menu-list > li > ul > li a:focus {
+                color: #fff;
+                background-color: #a5be1e; }
+        #header #gnb .menu-list > li.active > ul {
+          display: block;
+          border-top: 2xp solid #a5be1e; }
     #header #gnb .quick-menu {
       position: absolute;
       top: 50%;

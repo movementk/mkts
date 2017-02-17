@@ -83,7 +83,7 @@
                 minSlides: 1,
                 maxSlides: 3,
                 moveSlides: 1,
-                slideMargin: 30,
+                slideMargin: 60,
                 nextText: '<span></span>',
                 prevText: '<span></span>',
                 onSlideAfter: function($slideElement, oldIndex, newIndex) {

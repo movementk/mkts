@@ -45,18 +45,50 @@ body {
                 }
             }
         }
-        .gnb-menu {
+        .menu-list {
             overflow: hidden;
             display: inline-block;
             > li {
                 float: left;
                 > a {
                     display: block;
+                    width: 185px;
                     font-size: 18px;
                     color: #585858;
                     line-height: 87px;
                     font-weight: 400;
                     padding: 0 59px;
+                }
+                > ul {
+                    display: none;
+                    > li {
+                        border-bottom: 1px solid #eee;
+                        &:last-child {
+                            border-bottom: 0;
+                        }
+                        a {
+                            display: block;
+                            width: 185px;
+                            height: 54px;
+                            font-size: 15px;
+                            color: #585858;
+                            font-weight: 400;
+                            text-align: left;
+                            line-height: 54px;
+                            padding-left: 25px;
+                            background-color: #fff;
+                            &:hover,&:focus {
+                                color: #fff;
+                                background-color: #a5be1e;
+                            }
+                        }
+                    }
+                }
+                &.active {
+                    > ul {
+                        display: block;
+                        border-top: 2xp solid #a5be1e;
+                    }
                 }
             }
         }
