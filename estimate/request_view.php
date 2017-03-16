@@ -143,6 +143,20 @@
                                 </ul>
                             </div>
                             <p class="comment">댓글을 입력하세요. 댓글을 입력하세요. 댓글을 입력하세요.</p>
+                            <!-- 2017-03-07 -->
+                            <span class="comment-write">
+                                <div class="write">
+                                    <form action="#">
+                                        <h5><label for="comment">댓글쓰기</label></h5>
+                                        <div class="form-group">
+                                            <textarea id="comment" class="form-control"></textarea>
+                                        </div>
+                                        <p class="comment-btn">
+                                            <button type="button" class="btn btn-lg">확인</button>
+                                        </p>
+                                    </form>
+                                </div>
+                            </span>
                         </li>
                         <li class="reply">
                             <div class="title">

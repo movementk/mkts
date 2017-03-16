@@ -46,9 +46,12 @@ a:hover, a:focus {
           transform: scale(1);
           -webkit-transition: transform .3s;
           transition: transform .3s; }
+          .facilities .bx-wrapper .bx-viewport .machine-list li a img {
+            width: 300px;
+            height: 399px; }
         .facilities .bx-wrapper .bx-viewport .machine-list li p {
           display: none;
-          margin-top: 100px;
+          margin-top: 95px;
           font-size: 18px;
           color: #333; }
         .facilities .bx-wrapper .bx-viewport .machine-list li.active a {
@@ -118,8 +121,7 @@ a:hover, a:focus {
       background-color: #fff; }
       .product ul li a .details h4 {
         font-size: 18px;
-        color: #a5875d;
-        margin-bottom: 25px; }
+        color: #a5875d; }
       .product ul li a .details .summary {
         font-size: 15px;
         color: #999;

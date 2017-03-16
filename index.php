@@ -50,7 +50,7 @@
                 <div class="col-xs-6">
                     <div class="layout-prame">
                         <div class="product">
-                            <a href="#">
+                            <a href="/production/product.php">
                                 <div>
                                     <h3>
                                         <small>Introduction</small>
@@ -61,7 +61,7 @@
                             </a>
                         </div>
                         <div class="counsel">
-                            <a href="#">
+                            <a href="/estimate/request_list.php">
                                 <div>
                                     <h3>
                                         <small>Online</small>

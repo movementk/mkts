@@ -51,17 +51,21 @@
                     <table class="table table-border">
                         <colgroup>
                             <col style="width: 85px">
-                            <col style="width: 720px">
+                            <col style="width: 950px">
+<!--
                             <col style="width: 100px">
                             <col style="width: 130px">
+-->
                             <col style="width: 130px">
                         </colgroup>
                         <thead>
                             <tr>
                                 <th>번호</th>
                                 <th>제목</th>
+<!--
                                 <th>작성자</th>
                                 <th>작성일</th>
+-->
                                 <th>조회수</th>
                             </tr>
                         </thead>
@@ -71,8 +75,10 @@
                                 <td class="subject">
                                     <a href="#">안녕하세요. 명광통상입니다. 홈페이지를 개편하였습니다.</a>
                                 </td>
+<!--
                                 <td>명광통상</td>
                                 <td class="date">2016-10-26</td>
+-->
                                 <td class="count">123</td>
                             </tr>
                             <tr>
@@ -80,8 +86,10 @@
                                 <td class="subject">
                                     <a href="#">위험물용기 설계승인업체</a>
                                 </td>
+<!--
                                 <td>명광통상</td>
                                 <td class="date">2016-10-24</td>
+-->
                                 <td class="count">15</td>
                             </tr>
                             <tr>
@@ -89,8 +97,10 @@
                                 <td class="subject">
                                     <a href="#">안녕하세요. 명광통상입니다.</a>
                                 </td>
+<!--
                                 <td>명광통상</td>
                                 <td class="date">2016-10-20</td>
+-->
                                 <td class="count">88</td>
                             </tr>
                             <tr>
@@ -98,8 +108,10 @@
                                 <td class="subject">
                                     <a href="#">안녕하세요. 명광통상입니다.</a>
                                 </td>
+<!--
                                 <td>명광통상</td>
                                 <td class="date">2016-10-20</td>
+-->
                                 <td class="count">23</td>
                             </tr>
                             <tr>
@@ -107,8 +119,10 @@
                                 <td class="subject">
                                     <a href="#">안녕하세요. 명광통상입니다.</a>
                                 </td>
+<!--
                                 <td>명광통상</td>
                                 <td class="date">2016-10-20</td>
+-->
                                 <td class="count">96</td>
                             </tr>
                         </tbody>

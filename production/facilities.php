@@ -41,33 +41,33 @@
                     <ul class="machine-list">
                         <li>
                             <a href="#">
-                                <img src="/assets/images/production/test03.jpg" alt="">
+                                <img src="/assets/images/production/machine_img01.jpg" alt="Flexo Print Sticker (4색)">
+                            </a>
+                            <p>Flexo Print Sticker (4색)</p>
+                        </li>
+                        <li class="active">
+                            <a href="#">
+                                <img src="/assets/images/production/machine_img02.jpg" alt="Flexo Print Sticker (4색)">
                             </a>
                             <p>Flexo Print Sticker (4색)</p>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="/assets/images/production/test02.jpg" alt="">
+                                <img src="/assets/images/production/machine_img03.jpg" alt="양면Corrugator">
                             </a>
-                            <p>Flexo Print Sticker (4색)</p>
+                            <p>양면Corrugator</p>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="/assets/images/production/test02.jpg" alt="">
+                                <img src="/assets/images/production/machine_img04.jpg" alt="자동 Die Cutter">
                             </a>
-                            <p>Flexo Print Sticker (4색)</p>
+                            <p>자동 Die Cutter</p>
                         </li>
                         <li>
                             <a href="#">
-                                <img src="/assets/images/production/test02.jpg" alt="">
+                                <img src="/assets/images/production/machine_img05.jpg" alt="4면접착기">
                             </a>
-                            <p>Flexo Print Sticker (4색)</p>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="/assets/images/production/test02.jpg" alt="">
-                            </a>
-                            <p>Flexo Print Sticker (4색)</p>
+                            <p>4면접착기</p>
                         </li>
                     </ul>
                 </div>

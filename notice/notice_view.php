@@ -38,29 +38,6 @@
                         <h4>견적문의 드립니다.</h4>
                     </div>
                     <div class="article-content">
-                        <div class="user-info">
-                            <ul class="after-line">
-                                <li>
-                                    <dl>
-                                        <dt>등록일</dt>
-                                        <dd>2016-10-14</dd>
-                                    </dl>
-                                </li>
-                                <li>
-                                    <dl>
-                                        <dt>작성자</dt>
-                                        <dd>sqsq</dd>
-                                    </dl>
-                                </li>
-                                <li>
-                                    <dl>
-                                        <dt>조회수</dt>
-                                        <dd>3</dd>
-                                    </dl>
-                                </li>
-                            </ul>
-                            <a href="#" class="print">인쇄하기</a>
-                        </div>
                         <div class="content">
                             안녕하세요~<br>
                             TV 포장 박스 문의 입니다.<br>

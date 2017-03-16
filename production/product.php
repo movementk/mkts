@@ -45,8 +45,10 @@
                             </p>
                             <div class="details">
                                 <h4>맥스웰하우스</h4>
+<!--
                                 <p class="summary">맥스웰하우스 박스 제작 사진입니다.</p>
                                 <p class="date">2016.10.21</p>
+-->
                             </div>
                         </a>
                     </li>
@@ -57,8 +59,10 @@
                             </p>
                             <div class="details">
                                 <h4>MARATHON</h4>
+<!--
                                 <p class="summary">MARATHON 박스 제작 사진입니다.</p>
                                 <p class="date">2016.10.21</p>
+-->
                             </div>
                         </a>
                     </li>
@@ -69,8 +73,10 @@
                             </p>
                             <div class="details">
                                 <h4>이디야에스프레소</h4>
+<!--
                                 <p class="summary">이디야에스프레소 박스 제작 사진입니다.</p>
                                 <p class="date">2016.10.21</p>
+-->
                             </div>
                         </a>
                     </li>
@@ -81,8 +87,10 @@
                             </p>
                             <div class="details">
                                 <h4>맥스웰하우스</h4>
+<!--
                                 <p class="summary">맥스웰하우스 박스 제작 사진입니다.</p>
                                 <p class="date">2016.10.21</p>
+-->
                             </div>
                         </a>
                     </li>
@@ -93,8 +101,10 @@
                             </p>
                             <div class="details">
                                 <h4>MARATHON</h4>
+<!--
                                 <p class="summary">MARATHON 박스 제작 사진입니다.</p>
                                 <p class="date">2016.10.21</p>
+-->
                             </div>
                         </a>
                     </li>
@@ -105,8 +115,10 @@
                             </p>
                             <div class="details">
                                 <h4>이디야에스프레소</h4>
+<!--
                                 <p class="summary">이디야에스프레소 박스 제작 사진입니다.</p>
                                 <p class="date">2016.10.21</p>
+-->
                             </div>
                         </a>
                     </li>

@@ -381,6 +381,13 @@ a:hover, a:focus {
     font-weight: 300;
     margin-top: 15px;
     padding-right: 30px; }
+  .comment-area .comment-list li .comment-write {
+    display: inline-block;
+    padding-top: 20px; }
+    .comment-area .comment-list li .comment-write .write {
+      margin: 0; }
+      .comment-area .comment-list li .comment-write .write .form-group .form-control {
+        width: 950px; }
   .comment-area .comment-list li.reply {
     padding-left: 60px;
     background-image: url(/assets/images/estimate/reply_bg.png);

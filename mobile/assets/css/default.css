@@ -1,0 +1,239 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/earlyaccess/notosanskr.css");
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url(http://fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700");
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+p {
+  margin-bottom: 0; }
+
+ul, ol {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none; }
+
+dl {
+  margin-bottom: 0; }
+
+address {
+  margin-bottom: 0; }
+
+.form-group {
+  margin-bottom: 0; }
+
+a:hover, a:focus {
+  text-decoration: none; }
+
+body {
+  position: relative;
+  min-width: 320px;
+  font-size: 11px;
+  font-weight: 300;
+  color: #666;
+  font-family: 'Noto Sans KR', sans-serif; }
+
+.container {
+  padding-right: 10px;
+  padding-left: 10px; }
+
+#header {
+  position: relative;
+  height: 60px;
+  border-bottom: 2px solid #a5be1e; }
+  #header h1 {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    font-size: 0; }
+    #header h1 a {
+      display: block; }
+      #header h1 a img {
+        width: 131.33px;
+        height: 27px; }
+  #header .btn-menu {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    padding: 0;
+    border-radius: 0;
+    border: 0;
+    background: none; }
+    #header .btn-menu .icon-menu {
+      font-size: 20px; }
+      #header .btn-menu .icon-menu:before {
+        padding: 0;
+        margin: 0; }
+
+#footer .terms-list {
+  font-size: 0;
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #cdcdcd; }
+  #footer .terms-list li {
+    display: inline-block; }
+    #footer .terms-list li:after {
+      content: "·";
+      font-size: 13px;
+      display: inline-block;
+      padding: 0 11px; }
+    #footer .terms-list li:last-child:after {
+      content: "";
+      padding: 0; }
+    #footer .terms-list li a {
+      font-size: 12px;
+      color: #666;
+      font-weight: 400; }
+#footer .company {
+  text-align: center;
+  padding: 23px 0 15px; }
+  #footer .company address {
+    font-size: 11px;
+    color: #999;
+    display: block;
+    margin-bottom: 5px; }
+  #footer .company ul {
+    font-size: 0; }
+    #footer .company ul li {
+      display: inline-block;
+      font-size: 11px;
+      color: #999;
+      line-height: 16px; }
+      #footer .company ul li:first-child:after {
+        content: "|";
+        font-size: 10px;
+        color: #999;
+        padding: 0 7px 0 5px;
+        vertical-align: top;
+        display: inline-block; }
+      #footer .company ul li:nth-of-type(3) {
+        display: block; }
+      #footer .company ul li:last-child {
+        display: block; }
+      #footer .company ul li dl {
+        font-size: 0;
+        display: inline-block; }
+        #footer .company ul li dl dt {
+          display: inline-block;
+          font-size: 11px;
+          color: #999;
+          line-height: 16px;
+          font-weight: 300; }
+          #footer .company ul li dl dt:after {
+            content: ":";
+            font-size: 11px;
+            color: #999;
+            padding: 0 3px; }
+        #footer .company ul li dl dd {
+          display: inline-block;
+          font-size: 11px;
+          color: #999;
+          line-height: 16px;
+          font-weight: 300; }
+          #footer .company ul li dl dd a {
+            display: inline-block;
+            font-size: 11px;
+            color: #999;
+            font-weight: 300;
+            line-height: 16px; }
+#footer .copyright {
+  margin-top: 15px;
+  font-size: 10px;
+  line-height: 14px;
+  font-family: 'Roboto', sans-serif; }
+  #footer .copyright b {
+    font-weight: 600;
+    color: #999; }
+  #footer .copyright a {
+    color: #bbb;
+    font-weight: 300; }
+
+#content .bx-wrapper {
+  position: relative; }
+  #content .bx-wrapper .bx-viewport .visual-slide li .img-responsive {
+    margin: 0 auto; }
+  #content .bx-wrapper .bx-controls {
+    position: absolute;
+    bottom: 16px;
+    width: 100%; }
+    #content .bx-wrapper .bx-controls .bx-pager {
+      text-align: center; }
+      #content .bx-wrapper .bx-controls .bx-pager .bx-pager-item {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin: 0 3px; }
+        #content .bx-wrapper .bx-controls .bx-pager .bx-pager-item a {
+          width: 10px;
+          height: 10px;
+          display: inline-block;
+          border-radius: 50%;
+          border: 3px solid #fff;
+          text-indent: -999999px; }
+          #content .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active {
+            background-color: #fff; }
+#content .information {
+  overflow: hidden; }
+  #content .information > div {
+    text-align: center; }
+    #content .information > div > a {
+      width: 100%;
+      display: table;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      #content .information > div > a .info-text {
+        display: table-cell;
+        vertical-align: middle; }
+        #content .information > div > a .info-text small {
+          display: block;
+          font-size: 16px;
+          font-weight: 300;
+          color: #fff;
+          opacity: .6;
+          font-family: 'Montserrat', serif; }
+        #content .information > div > a .info-text h2 {
+          font-weight: 400;
+          font-family: 'Montserrat', serif;
+          color: #fff; }
+        #content .information > div > a .info-text p {
+          font-size: 11px;
+          color: #fff;
+          font-weight: 500; }
+    #content .information > div.product a {
+      height: 214px;
+      background-image: url(/mobile/assets/images/main/product_bg.jpg); }
+      #content .information > div.product a .info-text small {
+        color: #303030; }
+      #content .information > div.product a .info-text h2 {
+        font-size: 30px;
+        color: #303030;
+        margin-bottom: 15px; }
+      #content .information > div.product a .info-text p {
+        font-size: 14px;
+        color: #303030; }
+    #content .information > div.counsel {
+      float: left;
+      width: 50%; }
+      #content .information > div.counsel a {
+        height: 192px;
+        background-image: url(/mobile/assets/images/main/counsel_bg.jpg); }
+        #content .information > div.counsel a .info-text h2 {
+          font-size: 24px;
+          margin-bottom: 8px; }
+        #content .information > div.counsel a .info-text p {
+          line-height: 16px;
+          font-weight: 300; }
+    #content .information > div.location {
+      float: left;
+      width: 50%; }
+      #content .information > div.location a {
+        height: 192px;
+        background-image: url(/mobile/assets/images/main/location_bg.jpg); }
+        #content .information > div.location a .info-text h2 {
+          font-size: 22px;
+          letter-spacing: .5px; }
+
+/*# sourceMappingURL=default.css.map */

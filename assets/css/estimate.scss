@@ -517,6 +517,18 @@
                 margin-top: 15px;
                 padding-right: 30px;
             }
+            .comment-write{
+                display: inline-block;
+                padding-top: 20px;
+                .write {
+                    margin: 0;
+                    .form-group {
+                        .form-control {
+                            width: 950px;
+                        }
+                    }
+                }
+            }
             &.reply {
                 padding-left: 60px;
                 background-image: url(/assets/images/estimate/reply_bg.png);

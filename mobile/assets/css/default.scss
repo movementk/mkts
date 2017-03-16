@@ -1,0 +1,288 @@
+@import 'common';
+
+@import url('https://fonts.googleapis.com/earlyaccess/notosanskr.css');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900'); 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url(http://fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+
+body {
+    position: relative;
+    min-width: 320px;
+    font-size: 11px;
+    font-weight: 300;
+    color: #666;
+    @include noto();
+}
+.container {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#header {
+    position: relative;
+    height: 60px;
+    border-bottom: 2px solid #a5be1e;
+    h1 {
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        font-size: 0;
+        a {
+            display: block;
+            img {
+                width: 131.33px;
+                height: 27px;
+            }
+        }
+    }
+    .btn-menu {
+        position: absolute;
+        top: 15px;
+        right: 10px;
+        padding: 0;
+        border-radius: 0;
+        border: 0;
+        background: none;
+        .icon-menu {
+            font-size: 20px;
+            &:before {
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }
+}
+
+#footer {
+    .terms-list {
+        font-size: 0;
+        text-align: center;
+        padding: 20px 0;
+        border-bottom: 1px solid #cdcdcd;
+        li {
+            display: inline-block;
+            &:after {
+                content: "·";
+                font-size: 13px;
+                display: inline-block;
+                padding: 0 11px;
+            }
+            &:last-child:after {
+                content: "";
+                padding: 0;
+            }
+            a {
+                font-size: 12px;
+                color: #666;
+                font-weight: 400;
+            }
+        }
+    }
+    .company {
+        text-align: center;
+        padding: 23px 0 15px;
+        address {
+            font-size: 11px;
+            color: #999;
+            display: block;
+            margin-bottom: 5px;
+        }
+        ul {
+            font-size: 0;
+            li {
+                display: inline-block;
+                font-size: 11px;
+                color: #999;
+                line-height: 16px;
+                &:first-child {
+                    &:after {
+                        content: "|";
+                        font-size: 10px;
+                        color: #999;
+                        padding: 0 7px 0 5px;
+                        vertical-align: top;
+                        display: inline-block;
+                    }
+                }
+                &:nth-of-type(3) {
+                    display: block;
+                }
+                &:last-child {
+                    display: block;
+                }
+                dl {
+                    font-size: 0;
+                    display: inline-block;
+                    dt {
+                        display: inline-block;
+                        font-size: 11px;
+                        color: #999;
+                        line-height: 16px;
+                        font-weight: 300;
+                        &:after {
+                            content: ":";
+                            font-size: 11px;
+                            color: #999;
+                            padding: 0 3px;
+                        }
+                    }
+                    dd {
+                        display: inline-block;
+                        font-size: 11px;
+                        color: #999;
+                        line-height: 16px;
+                        font-weight: 300;
+                        a {
+                            display: inline-block;
+                            font-size: 11px;
+                            color: #999;
+                            font-weight: 300;
+                            line-height: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .copyright {
+        margin-top: 15px;
+        font-size: 10px;
+        line-height: 14px;
+        @include roboto;
+        b {
+            font-weight: 600;
+            color: #999;
+        }
+        a {
+            color: #bbb;
+            font-weight: 300;
+        }
+    }
+}
+
+#content {
+    .bx-wrapper {
+        position: relative;
+        .bx-viewport {
+            .visual-slide {
+                li {
+                    .img-responsive {
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+        .bx-controls {
+            position: absolute;
+            bottom: 16px;
+            width: 100%;
+            .bx-pager {
+                text-align: center;
+                .bx-pager-item {
+                    display: inline-block;
+                    width: 10px;
+                    height: 10px;
+                    margin: 0 3px;
+                    a {
+                        width: 10px;
+                        height: 10px;
+                        display: inline-block;
+                        border-radius: 50%;
+                        border: 3px solid #fff;
+                        text-indent: -999999px;
+                        &.active {
+                            background-color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .information {
+        overflow: hidden;
+        > div {
+            text-align: center;
+            > a {
+                width: 100%;
+                display: table;
+                background-repeat: no-repeat;
+                background-size: cover;
+                .info-text {
+                    display: table-cell;
+                    vertical-align: middle;
+                    small {
+                        display: block;
+                        font-size: 16px;
+                        font-weight: 300;
+                        color: #fff;
+                        opacity: .6;
+                        font-family: 'Montserrat', serif;
+                    }
+                    h2 {
+                        font-weight: 400;
+                        font-family: 'Montserrat', serif;
+                        color: #fff;
+                    }
+                    p {
+                        font-size: 11px;
+                        color: #fff;
+                        font-weight: 500;
+                    }
+                }
+            }
+            &.product {
+                a {
+                    height: 214px;
+                    background-image: url(/mobile/assets/images/main/product_bg.jpg);
+                    .info-text {
+                        small {
+                            color: #303030;
+                        }
+                        h2 {
+                            font-size: 30px;
+                            color: #303030;
+                            margin-bottom: 15px;
+                        }
+                        p {
+                            font-size: 14px;
+                            color: #303030;
+                        }
+                    }
+                }
+            }
+            &.counsel {
+                float: left;
+                width: 50%;
+                a {
+                    height: 192px;
+                    background-image: url(/mobile/assets/images/main/counsel_bg.jpg);
+                    .info-text {
+                        h2 {
+                            font-size: 24px;
+                            margin-bottom: 8px;
+                        }
+                        p {
+                            line-height: 16px;
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+            &.location {
+                float: left;
+                width: 50%;
+                a {
+                    height: 192px;
+                    background-image: url(/mobile/assets/images/main/location_bg.jpg);
+                    .info-text {
+                        h2 {
+                            font-size: 22px;
+                            letter-spacing: .5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
