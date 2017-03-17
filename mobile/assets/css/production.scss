@@ -1,0 +1,119 @@
+@import 'common';
+
+.production {
+    .page-header {
+        background-image: url(/mobile/assets/images/production/production_bg.jpg);
+    }
+    .section-header {
+        padding-bottom: 45px;
+    }
+}
+
+//주요설비현황
+.facilities {
+    padding-bottom: 45px;
+    .section-content {
+        padding: 0 10px;
+    }
+    .bx-wrapper {
+        position: relative;
+        .bx-viewport {
+            .product-slider {
+                li {
+                    figure {
+                        .img-responsive {
+                            margin: 0 auto;
+                        }
+                        figcaption {
+                            font-size: 15px;
+                            color: #333;
+                            text-align: center;
+                            margin-top: 60px;
+                        }
+                    }
+                }
+            }
+        }
+        .bx-controls {
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            margin-left: -87.5px;
+            font-size: 0;
+            text-align: center;
+            .bx-pager {
+                .bx-pager-item {
+                    display: inline-block;
+                    margin: 0 5px;
+                    a {
+                        display: block;
+                        width: 25px;
+                        height: 2px;
+                        background-color: #c6c6c6;
+                        &.active {
+                            background-color: #9b7e58;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//제품소개
+.product {
+    padding-bottom: 60px;
+    .section-content {
+        .product-list {
+            li {
+                max-width: 800px;
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 20px;
+                a {
+                    display: block;
+                    .product-img {
+                        .img-responsive {
+                            margin: 0 auto;
+                        }
+                    }
+                    .details {
+                        padding: 15px 20px 18px;
+                        background-color: #fff;
+                        h5 {
+                            font-size: 18px;
+                            color: #a5875d;
+                            font-weight: 400;
+                            margin-bottom: 10px;
+                        }
+                        .summary {
+                            font-size: 14px;
+                            color: #999;
+                            line-height: 18px;
+                            margin-bottom: 15px;
+                        }
+                        .date {
+                            font-size: 14px;
+                            color: #a5be1e;
+                            font-weight: 400;
+                            @include lato;
+                            .icon-clock-alt {
+                                font-size: 15px;
+                                margin-right: 5px;
+                                &:before {
+                                    margin: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .paging {
+            margin-top: 60px;
+        }
+    }
+}

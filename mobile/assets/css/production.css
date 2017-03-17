@@ -1,0 +1,100 @@
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+p {
+  margin-bottom: 0; }
+
+ul, ol {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none; }
+
+dl {
+  margin-bottom: 0; }
+
+address {
+  margin-bottom: 0; }
+
+.form-group {
+  margin-bottom: 0; }
+
+a:hover, a:focus {
+  text-decoration: none; }
+
+.production .page-header {
+  background-image: url(/mobile/assets/images/production/production_bg.jpg); }
+.production .section-header {
+  padding-bottom: 45px; }
+
+.facilities {
+  padding-bottom: 45px; }
+  .facilities .section-content {
+    padding: 0 10px; }
+  .facilities .bx-wrapper {
+    position: relative; }
+    .facilities .bx-wrapper .bx-viewport .product-slider li figure .img-responsive {
+      margin: 0 auto; }
+    .facilities .bx-wrapper .bx-viewport .product-slider li figure figcaption {
+      font-size: 15px;
+      color: #333;
+      text-align: center;
+      margin-top: 60px; }
+    .facilities .bx-wrapper .bx-controls {
+      position: absolute;
+      bottom: 50px;
+      left: 50%;
+      margin-left: -87.5px;
+      font-size: 0;
+      text-align: center; }
+      .facilities .bx-wrapper .bx-controls .bx-pager .bx-pager-item {
+        display: inline-block;
+        margin: 0 5px; }
+        .facilities .bx-wrapper .bx-controls .bx-pager .bx-pager-item a {
+          display: block;
+          width: 25px;
+          height: 2px;
+          background-color: #c6c6c6; }
+          .facilities .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active {
+            background-color: #9b7e58; }
+
+.product {
+  padding-bottom: 60px; }
+  .product .section-content .product-list li {
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px; }
+    .product .section-content .product-list li a {
+      display: block; }
+      .product .section-content .product-list li a .product-img .img-responsive {
+        margin: 0 auto; }
+      .product .section-content .product-list li a .details {
+        padding: 15px 20px 18px;
+        background-color: #fff; }
+        .product .section-content .product-list li a .details h5 {
+          font-size: 18px;
+          color: #a5875d;
+          font-weight: 400;
+          margin-bottom: 10px; }
+        .product .section-content .product-list li a .details .summary {
+          font-size: 14px;
+          color: #999;
+          line-height: 18px;
+          margin-bottom: 15px; }
+        .product .section-content .product-list li a .details .date {
+          font-size: 14px;
+          color: #a5be1e;
+          font-weight: 400;
+          font-family: 'Lato', sans-serif; }
+          .product .section-content .product-list li a .details .date .icon-clock-alt {
+            font-size: 15px;
+            margin-right: 5px; }
+            .product .section-content .product-list li a .details .date .icon-clock-alt:before {
+              margin: 0; }
+    .product .section-content .product-list li:last-child {
+      margin-bottom: 0; }
+  .product .section-content .paging {
+    margin-top: 60px; }
+
+/*# sourceMappingURL=production.css.map */

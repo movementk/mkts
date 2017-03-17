@@ -1,0 +1,177 @@
+@import 'common';
+
+#content {
+    .bx-wrapper {
+        position: relative;
+        .bx-viewport {
+            .visual-slide {
+                li {
+                    .img-responsive {
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+        .bx-controls {
+            position: absolute;
+            bottom: 16px;
+            width: 100%;
+            .bx-pager {
+                text-align: center;
+                .bx-pager-item {
+                    display: inline-block;
+                    width: 10px;
+                    height: 10px;
+                    margin: 0 3px;
+                    a {
+                        width: 10px;
+                        height: 10px;
+                        display: inline-block;
+                        border-radius: 50%;
+                        border: 3px solid #fff;
+                        text-indent: -999999px;
+                        &.active {
+                            background-color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .information {
+        overflow: hidden;
+        > div {
+            text-align: center;
+            > a {
+                width: 100%;
+                display: table;
+                background-repeat: no-repeat;
+                background-size: cover;
+                .info-text {
+                    display: table-cell;
+                    vertical-align: middle;
+                    small {
+                        display: block;
+                        font-size: 16px;
+                        font-weight: 300;
+                        color: #fff;
+                        opacity: .6;
+                        font-family: 'Montserrat', serif;
+                    }
+                    h2 {
+                        font-weight: 400;
+                        font-family: 'Montserrat', serif;
+                        color: #fff;
+                    }
+                    p {
+                        font-size: 11px;
+                        color: #fff;
+                        font-weight: 500;
+                    }
+                }
+            }
+            &.product {
+                a {
+                    height: 214px;
+                    background-image: url(/mobile/assets/images/main/product_bg.jpg);
+                    .info-text {
+                        small {
+                            color: #303030;
+                        }
+                        h2 {
+                            font-size: 30px;
+                            color: #303030;
+                            margin-bottom: 15px;
+                        }
+                        p {
+                            font-size: 14px;
+                            color: #303030;
+                        }
+                    }
+                }
+            }
+            &.counsel {
+                float: left;
+                width: 50%;
+                a {
+                    height: 192px;
+                    background-image: url(/mobile/assets/images/main/counsel_bg.jpg);
+                    .info-text {
+                        h2 {
+                            font-size: 24px;
+                            margin-bottom: 8px;
+                        }
+                        p {
+                            line-height: 16px;
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+            &.location {
+                float: left;
+                width: 50%;
+                a {
+                    padding: 0 15px;
+                    height: 192px;
+                    background-image: url(/mobile/assets/images/main/location_bg.jpg);
+                    .info-text {
+                        small {
+                            font-size: 12px;
+                        }
+                        h2 {
+                            font-size: 22px;
+                            letter-spacing: 1px;
+                            padding-bottom: 40px;
+                            background-image: url(/mobile/assets/images/main/icon_location_bg.png);
+                            background-repeat: no-repeat;
+                            background-size: 36px auto;
+                            background-position: 50% 100%;
+                        }
+                        hr {
+                            display: inline-block;
+                            width: 100%;
+                            border-top: 1px solid #fff;
+                            opacity: .6;
+                            margin-top: 13px;
+                            margin-bottom: 5px;
+                        }
+                        .addr {
+                            font-size: 11px;
+                            opacity: .6;
+                            line-height: 14px;
+                            margin-bottom: 5px;
+                        }
+                        .call {
+                            font-size: 16px;
+                            font-family: 'Montserrat', serif;
+                            font-weight: 500;
+                            margin-bottom: 5px;
+                        }
+                        .fax {
+                            font-size: 0;
+                            dt {
+                                display: inline-block;
+                                font-size: 10px;
+                                color: #fff;
+                                margin-right: 3px;
+                                font-weight: 300;
+                                letter-spacing: 1px;
+                                font-family: 'Montserrat', serif;
+                            }
+                            dd {
+                                display: inline-block;
+                                font-size: 10px;
+                                color: #fff;
+                                font-weight: 300;
+                                letter-spacing: 1px;
+                                margin-right: 3px;
+                                font-family: 'Montserrat', serif;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

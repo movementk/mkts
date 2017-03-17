@@ -1,0 +1,153 @@
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+p {
+  margin-bottom: 0; }
+
+ul, ol {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none; }
+
+dl {
+  margin-bottom: 0; }
+
+address {
+  margin-bottom: 0; }
+
+.form-group {
+  margin-bottom: 0; }
+
+a:hover, a:focus {
+  text-decoration: none; }
+
+#content .bx-wrapper {
+  position: relative; }
+  #content .bx-wrapper .bx-viewport .visual-slide li .img-responsive {
+    margin: 0 auto; }
+  #content .bx-wrapper .bx-controls {
+    position: absolute;
+    bottom: 16px;
+    width: 100%; }
+    #content .bx-wrapper .bx-controls .bx-pager {
+      text-align: center; }
+      #content .bx-wrapper .bx-controls .bx-pager .bx-pager-item {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin: 0 3px; }
+        #content .bx-wrapper .bx-controls .bx-pager .bx-pager-item a {
+          width: 10px;
+          height: 10px;
+          display: inline-block;
+          border-radius: 50%;
+          border: 3px solid #fff;
+          text-indent: -999999px; }
+          #content .bx-wrapper .bx-controls .bx-pager .bx-pager-item a.active {
+            background-color: #fff; }
+#content .information {
+  overflow: hidden; }
+  #content .information > div {
+    text-align: center; }
+    #content .information > div > a {
+      width: 100%;
+      display: table;
+      background-repeat: no-repeat;
+      background-size: cover; }
+      #content .information > div > a .info-text {
+        display: table-cell;
+        vertical-align: middle; }
+        #content .information > div > a .info-text small {
+          display: block;
+          font-size: 16px;
+          font-weight: 300;
+          color: #fff;
+          opacity: .6;
+          font-family: 'Montserrat', serif; }
+        #content .information > div > a .info-text h2 {
+          font-weight: 400;
+          font-family: 'Montserrat', serif;
+          color: #fff; }
+        #content .information > div > a .info-text p {
+          font-size: 11px;
+          color: #fff;
+          font-weight: 500; }
+    #content .information > div.product a {
+      height: 214px;
+      background-image: url(/mobile/assets/images/main/product_bg.jpg); }
+      #content .information > div.product a .info-text small {
+        color: #303030; }
+      #content .information > div.product a .info-text h2 {
+        font-size: 30px;
+        color: #303030;
+        margin-bottom: 15px; }
+      #content .information > div.product a .info-text p {
+        font-size: 14px;
+        color: #303030; }
+    #content .information > div.counsel {
+      float: left;
+      width: 50%; }
+      #content .information > div.counsel a {
+        height: 192px;
+        background-image: url(/mobile/assets/images/main/counsel_bg.jpg); }
+        #content .information > div.counsel a .info-text h2 {
+          font-size: 24px;
+          margin-bottom: 8px; }
+        #content .information > div.counsel a .info-text p {
+          line-height: 16px;
+          font-weight: 300; }
+    #content .information > div.location {
+      float: left;
+      width: 50%; }
+      #content .information > div.location a {
+        padding: 0 15px;
+        height: 192px;
+        background-image: url(/mobile/assets/images/main/location_bg.jpg); }
+        #content .information > div.location a .info-text small {
+          font-size: 12px; }
+        #content .information > div.location a .info-text h2 {
+          font-size: 22px;
+          letter-spacing: 1px;
+          padding-bottom: 40px;
+          background-image: url(/mobile/assets/images/main/icon_location_bg.png);
+          background-repeat: no-repeat;
+          background-size: 36px auto;
+          background-position: 50% 100%; }
+        #content .information > div.location a .info-text hr {
+          display: inline-block;
+          width: 100%;
+          border-top: 1px solid #fff;
+          opacity: .6;
+          margin-top: 13px;
+          margin-bottom: 5px; }
+        #content .information > div.location a .info-text .addr {
+          font-size: 11px;
+          opacity: .6;
+          line-height: 14px;
+          margin-bottom: 5px; }
+        #content .information > div.location a .info-text .call {
+          font-size: 16px;
+          font-family: 'Montserrat', serif;
+          font-weight: 500;
+          margin-bottom: 5px; }
+        #content .information > div.location a .info-text .fax {
+          font-size: 0; }
+          #content .information > div.location a .info-text .fax dt {
+            display: inline-block;
+            font-size: 10px;
+            color: #fff;
+            margin-right: 3px;
+            font-weight: 300;
+            letter-spacing: 1px;
+            font-family: 'Montserrat', serif; }
+          #content .information > div.location a .info-text .fax dd {
+            display: inline-block;
+            font-size: 10px;
+            color: #fff;
+            font-weight: 300;
+            letter-spacing: 1px;
+            margin-right: 3px;
+            font-family: 'Montserrat', serif; }
+
+/*# sourceMappingURL=main.css.map */

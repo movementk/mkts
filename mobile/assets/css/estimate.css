@@ -1,0 +1,105 @@
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+p {
+  margin-bottom: 0; }
+
+ul, ol {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none; }
+
+dl {
+  margin-bottom: 0; }
+
+address {
+  margin-bottom: 0; }
+
+.form-group {
+  margin-bottom: 0; }
+
+a:hover, a:focus {
+  text-decoration: none; }
+
+.estimate .page-header {
+  height: 176px;
+  padding-top: 50px;
+  background-image: url(/mobile/assets/images/estimate/estimate_bg.jpg); }
+.estimate .section-header {
+  padding-bottom: 45px; }
+
+.request-list {
+  padding-bottom: 40px; }
+  .request-list .section-content .sub-title {
+    margin-bottom: 30px !important; }
+  .request-list .section-content .search-form {
+    margin-bottom: 20px; }
+  .request-list .section-content .list {
+    background-color: #fff; }
+    .request-list .section-content .list > li {
+      display: block;
+      padding: 20px;
+      border-bottom: 1px solid #dfdfdf; }
+      .request-list .section-content .list > li span {
+        display: block;
+        width: 57px;
+        height: 25px;
+        color: #fff;
+        font-size: 12px;
+        line-height: 23px;
+        text-align: center;
+        margin-bottom: 10px;
+        border-radius: 4px;
+        border: 1px solid #c0a889; }
+        .request-list .section-content .list > li span.request-box1 {
+          border-color: #c0a889;
+          background-color: #c0a889; }
+        .request-list .section-content .list > li span.request-box2 {
+          border-color: #999;
+          background-color: #999; }
+        .request-list .section-content .list > li span.request-box3 {
+          color: #c0a889;
+          background-color: #fff; }
+      .request-list .section-content .list > li .subject a {
+        display: block;
+        font-size: 16px;
+        color: #666;
+        font-weight: 400;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        line-height: 14px;
+        margin-bottom: 15px; }
+        .request-list .section-content .list > li .subject a i {
+          display: inline-block;
+          vertical-align: top; }
+          .request-list .section-content .list > li .subject a i.comment-count {
+            font-size: 16px;
+            color: #999;
+            font-style: normal;
+            margin-left: 5px; }
+          .request-list .section-content .list > li .subject a i.attach {
+            width: 16px;
+            height: 16px;
+            margin-left: 5px;
+            background-image: url(/mobile/assets/images/estimate/icon_attach.png);
+            background-repeat: no-repeat;
+            background-size: 16px auto; }
+          .request-list .section-content .list > li .subject a i.icon-key {
+            font-size: 20px;
+            color: #666;
+            margin-left: 5px; }
+      .request-list .section-content .list > li > ul li {
+        display: inline-block;
+        font-size: 13px;
+        color: #666; }
+        .request-list .section-content .list > li > ul li.date {
+          margin-left: 20px;
+          font-family: 'Lato', sans-serif; }
+  .request-list .section-content .btn-area {
+    margin-top: 15px; }
+  .request-list .section-content .paging {
+    margin-top: 45px; }
+
+/*# sourceMappingURL=estimate.css.map */

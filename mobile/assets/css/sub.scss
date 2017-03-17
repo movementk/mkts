@@ -1,0 +1,288 @@
+@import 'common';
+
+.sub {
+    min-height: 600px;
+    background-image: url(/mobile/assets/images/sub/body_bg.gif);
+}
+
+// 공통 클래스
+.form-control {
+    font-size: 13px;
+    color: #333;
+    padding: 5px 10px;
+    height: 38px;
+    border-radius: 0;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    background-color: #fff;
+    &:hover,&:focus {
+        box-shadow: none;
+        border-color: #ddd;
+    }
+}
+.btn {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: none;
+}
+label {
+    margin-bottom: 0;
+}
+
+
+//page-header
+.page-header {
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    background-image: url(/mobile/assets/images/sub/introduce_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    h2 {
+        font-size: 36px;
+        color: #fff;
+        text-align: center;
+        text-shadow: #000 0px 0px 10px;
+        margin-bottom: 15px;
+    }
+    p {
+        text-align: center;
+        font-size: 12px;
+        color: #fff;
+        opacity: .6;
+        margin-bottom: 20px;
+    }
+    .dropdown {
+        max-width: 300px;
+        margin: 0 auto;
+        .btn-default {
+            display: block;
+            width: 100%;
+            font-size: 14px;
+            color: #fff;
+            text-align: left;
+            font-weight: 300;
+            line-height: 34px;
+            padding: 0 10px;
+            border: 0;
+            border-radius: 0;
+            background: rgba(#a0b926, .7);
+            &:hover,&:focus {
+                color: #fff;
+                background: rgba(#a0b926, .7);
+            }
+            .icon-drop {
+                float: right;
+                display: block;
+                position: relative;
+                width: 16px;
+                height: 16px;
+                margin-top: 9px;
+                border-radius: 50%;
+                background-color: #fff;
+                &:after {
+                    position: absolute;
+                    top: 9px;
+                    right: 4px;
+                    font-family: 'fontello';
+                    font-size: 14px;
+                    content: '\E805';
+                    color: #a0b926;
+                    padding: 0;
+                    margin: 0;
+                    line-height: 0;
+                }
+            }
+        }
+        .dropdown-menu {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            border-radius: 0;
+            box-shadow: none;
+            background: rgba(#000, .7);
+            li {
+                width: 100%;
+                a {
+                    display: block;
+                    font-size: 14px;
+                    font-weight: 300;
+                    padding: 3px 0 3px 10px;
+                    color: #fff;
+                    line-height: 26px;
+                    &:hover {
+                        color: #fff;
+                        background: none;
+                    }
+                }
+            }
+        }
+    }
+    .dropdown.open {
+        .btn-default {
+            .icon-drop {
+                &:after {
+                    top: 8px;
+                    content: '\E804';
+                }
+            }
+        }
+    }
+}
+
+//컨텐츠 콩통 부분 
+.sub {
+    section {
+        .section-header {
+            text-align: center;
+            padding-top: 30px;
+            //border-bottom: 0;    페이지 마다 값이 다르기때문에 페이지마다 bottom 값 따로 주기
+            small {
+                font-size: 13px;
+                color: #666;
+                @include lato;
+                font-weight: 600;
+            }
+            hr {
+                width: 42px;
+                margin: 13px auto;
+                border-top: 2px solid #999;
+            }
+            h3 {
+                font-size: 24px;
+                color: #070c13;
+            }
+        }
+        .section-content {
+            .sub-title {
+                font-size: 20px;
+                color: #585858;
+                font-weight: 300;
+                text-align: center;
+                line-height: 28px;
+                margin-bottom: 45px;
+            }
+        }
+    }
+}
+
+//검색폼
+.search-form {
+    position: relative;
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    .form-group {
+        overflow: hidden;
+        padding-right: 40px;
+        .form-control {
+            float: left;
+        }
+        select {
+            width: 80px;
+            margin-right: 10px;
+        }
+        input {
+            width: 170px;
+        }
+    }
+    .btn-search {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 40px;
+        height: 38px;
+        line-height: 38px;
+        background-color: #e4e4e4;
+        .icon-search {
+            font-size: 18px;
+            color: #9b7e58;
+        }
+    }
+}
+
+//페이징
+.paging {
+    text-align: center;
+    .pagination {
+        display: inline-block;
+        margin: 0;
+        border-radius: 0;
+        li {
+            a {
+                width: 30px;
+                height: 30px;
+                font-size: 15px;
+                color: #888;
+                line-height: 30px;
+                font-weight: 400;
+                border: 0;
+                padding: 0;
+                border-radius: 0;
+                background: none;
+                @include lato;
+                margin: 0 1px;
+                i {
+                    color: #9b7e58;
+                    &:before {
+                        margin: 0;
+                        padding: 0;
+                    }
+                    &.icon-angle-left {
+                        &:before {
+                            margin-right: 15px;
+                        }
+                    }
+                    &.icon-angle-right {
+                        &:before {
+                            margin-left: 15px;
+                        }
+                    }
+                }
+            }
+            &.active {
+                a {
+                    color: #fff;
+                    background-color: #9b7e58;
+                }
+            }
+        }
+    }
+}
+
+//버튼 종류
+.btn-area {
+    font-size: 0;
+    text-align: center;
+    p {
+        .btn {
+            display: inline-block;
+            font-size: 13px;
+            text-align: center;
+            margin-right: 10px;
+            &:last-child {
+                margin-right: 0;
+            }
+            &.btn-md {
+                width: 145px;
+                height: 34px;
+                line-height: 32px;
+            }
+            &.btn-gold {
+                color: #fff;
+                background-color: #9b7e58;
+            }
+            &.btn-gray {
+                color: #fff;
+                background-color: #666;
+            }
+            &.btn-white {
+                color: #666;
+                line-height: 32px;
+                border: 1px solid #ccc;
+            }
+        }
+    }
+}

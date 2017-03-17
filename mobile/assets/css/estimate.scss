@@ -1,0 +1,110 @@
+@import 'common';
+
+.estimate {
+    .page-header {
+        height: 176px;
+        padding-top: 50px;
+        background-image: url(/mobile/assets/images/estimate/estimate_bg.jpg);
+    }
+    .section-header {
+        padding-bottom: 45px;
+    }
+}
+
+//제품견적의뢰
+.request-list {
+    padding-bottom: 40px;
+    .section-content {
+        .sub-title {
+            margin-bottom: 30px !important;
+        }
+        .search-form {
+            margin-bottom: 20px;
+        }
+        .list {
+            background-color: #fff;
+            > li {
+                display: block;
+                padding: 20px;
+                border-bottom: 1px solid #dfdfdf;
+                span {
+                    display: block;
+                    width: 57px;
+                    height: 25px;
+                    color: #fff;
+                    font-size: 12px;
+                    line-height: 23px;
+                    text-align: center;
+                    margin-bottom: 10px;
+                    border-radius: 4px;
+                    border: 1px solid #c0a889;
+                    &.request-box1 {
+                        border-color: #c0a889;
+                        background-color: #c0a889;
+                    }
+                    &.request-box2 {
+                        border-color: #999;
+                        background-color: #999;
+                    }
+                    &.request-box3 {
+                        color: #c0a889;
+                        background-color: #fff;
+                    }
+                }
+                .subject {
+                    a {
+                        display: block;
+                        font-size: 16px;
+                        color: #666;
+                        font-weight: 400;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        line-height: 14px;
+                        margin-bottom: 15px;
+                        i {
+                            display: inline-block;
+                            vertical-align: top;
+                            &.comment-count {
+                                font-size: 16px;
+                                color: #999;
+                                font-style: normal;
+                                margin-left: 5px;
+                            }
+                            &.attach {
+                                width: 16px;
+                                height: 16px;
+                                margin-left: 5px;
+                                background-image: url(/mobile/assets/images/estimate/icon_attach.png);
+                                background-repeat: no-repeat;
+                                background-size: 16px auto;
+                            }
+                            &.icon-key {
+                                font-size: 20px;
+                                color: #666;
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                }
+                > ul {
+                    li {
+                        display: inline-block;
+                        font-size: 13px;
+                        color: #666;
+                        &.date {
+                            margin-left: 20px;
+                            @include lato;
+                        }
+                    }
+                }
+            }
+        }
+        .btn-area {
+            margin-top: 15px;
+        }
+        .paging {
+            margin-top: 45px;
+        }
+    }
+}
