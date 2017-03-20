@@ -1,0 +1,136 @@
+@import 'common';
+
+.notice {
+    .page-header {
+        background-image: url(/mobile/assets/images/notice/notice_bg.jpg);
+    }
+    .section-content {
+        .sub-title {
+            margin: 40px 0 50px;
+        }
+    }
+}
+
+//공지사항 리스트
+.notice-list {
+    padding-bottom: 35px;
+    .search-form {
+        margin-bottom: 30px;
+    }
+    .list {
+        margin-bottom: 20px;
+        background-color: #fff;
+        li {
+            padding: 25px 20px;
+            border-bottom: 1px solid #dfdfdf;
+            a {
+                font-size: 16px;
+                color: #666;
+                line-height: 20px;
+            }
+            dl {
+                margin-top: 20px;
+                dt {
+                    display: inline-block;
+                    font-size: 13px;
+                    color: #666;
+                    font-weight: 300;
+                    margin-right: 15px;
+                }
+                dd {
+                    display: inline-block;
+                    font-size: 13px;
+                    color: #666;
+                    font-weight: 300;
+                    @include lato();
+                }
+            }
+        }
+    }
+    .btn-area {
+        margin-bottom: 40px;
+        p {
+            
+        }
+    }
+}
+
+//공지사항 보기
+.notice-view {
+    padding-bottom: 45px;
+    .section-content {
+        .view {
+            background-color: #fff;
+            border-top: 2px solid #9b7e58;
+            .article-header {
+                font-size: 14px;
+                color: #333;
+                padding: 15px 10px;
+                border-bottom: 1px solid #ccc;
+            }
+            .view-content {
+                font-size: 13px;
+                color: #666;
+                line-height: 20px;
+                padding: 20px 10px 40px;
+                min-height: 200px;
+                border-bottom: 1px solid #ccc;
+            }
+            .file {
+                overflow: hidden;
+                padding: 15px 10px;
+                border-bottom: 1px solid #ccc;
+                dt {
+                    float: left;
+                    font-size: 13px;
+                    color: #666;
+                    font-weight: 300;
+                    padding-left: 20px;
+                    background-image: url(/mobile/assets/images/estimate/icon_file.png);
+                    background-repeat: no-repeat;
+                    background-size: 13px 13px;
+                    background-position: 0 2px;
+                }
+                dd {
+                    font-weight: 300;
+                    padding-left: 100px;
+                    &:after {
+                        content: ",";
+                        font-size: 13px;
+                        color: #666;
+                        margin-right: 3px;
+                    }
+                    &:last-child:after {
+                        content: "";
+                        margin: 0;
+                    }
+                    a {
+                        display: inline-block;
+                        font-size: 13px;
+                        color: #666;
+                        i {
+                            font-style: normal;
+                            margin-left: 3px;
+                            &:before {
+                                content: "(";
+                            }
+                            &:after {
+                                content: ")";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .btn-area {
+            margin-top: 20px;
+            p {
+                .btn-lg {
+                    width: 300px;
+                    height: 38px;
+                    line-height: 36px;
+                }
+            }
+        }
+    }
+}

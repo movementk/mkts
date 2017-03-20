@@ -1,0 +1,121 @@
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0; }
+
+p {
+  margin-bottom: 0; }
+
+ul, ol {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none; }
+
+dl {
+  margin-bottom: 0; }
+
+address {
+  margin-bottom: 0; }
+
+.form-group {
+  margin-bottom: 0; }
+
+a:hover, a:focus {
+  text-decoration: none; }
+
+.notice .page-header {
+  background-image: url(/mobile/assets/images/notice/notice_bg.jpg); }
+.notice .section-content .sub-title {
+  margin: 40px 0 50px; }
+
+.notice-list {
+  padding-bottom: 35px; }
+  .notice-list .search-form {
+    margin-bottom: 30px; }
+  .notice-list .list {
+    margin-bottom: 20px;
+    background-color: #fff; }
+    .notice-list .list li {
+      padding: 25px 20px;
+      border-bottom: 1px solid #dfdfdf; }
+      .notice-list .list li a {
+        font-size: 16px;
+        color: #666;
+        line-height: 20px; }
+      .notice-list .list li dl {
+        margin-top: 20px; }
+        .notice-list .list li dl dt {
+          display: inline-block;
+          font-size: 13px;
+          color: #666;
+          font-weight: 300;
+          margin-right: 15px; }
+        .notice-list .list li dl dd {
+          display: inline-block;
+          font-size: 13px;
+          color: #666;
+          font-weight: 300;
+          font-family: 'Lato', sans-serif; }
+  .notice-list .btn-area {
+    margin-bottom: 40px; }
+
+.notice-view {
+  padding-bottom: 45px; }
+  .notice-view .section-content .view {
+    background-color: #fff;
+    border-top: 2px solid #9b7e58; }
+    .notice-view .section-content .view .article-header {
+      font-size: 14px;
+      color: #333;
+      padding: 15px 10px;
+      border-bottom: 1px solid #ccc; }
+    .notice-view .section-content .view .view-content {
+      font-size: 13px;
+      color: #666;
+      line-height: 20px;
+      padding: 20px 10px 40px;
+      min-height: 200px;
+      border-bottom: 1px solid #ccc; }
+    .notice-view .section-content .view .file {
+      overflow: hidden;
+      padding: 15px 10px;
+      border-bottom: 1px solid #ccc; }
+      .notice-view .section-content .view .file dt {
+        float: left;
+        font-size: 13px;
+        color: #666;
+        font-weight: 300;
+        padding-left: 20px;
+        background-image: url(/mobile/assets/images/estimate/icon_file.png);
+        background-repeat: no-repeat;
+        background-size: 13px 13px;
+        background-position: 0 2px; }
+      .notice-view .section-content .view .file dd {
+        font-weight: 300;
+        padding-left: 100px; }
+        .notice-view .section-content .view .file dd:after {
+          content: ",";
+          font-size: 13px;
+          color: #666;
+          margin-right: 3px; }
+        .notice-view .section-content .view .file dd:last-child:after {
+          content: "";
+          margin: 0; }
+        .notice-view .section-content .view .file dd a {
+          display: inline-block;
+          font-size: 13px;
+          color: #666; }
+          .notice-view .section-content .view .file dd a i {
+            font-style: normal;
+            margin-left: 3px; }
+            .notice-view .section-content .view .file dd a i:before {
+              content: "("; }
+            .notice-view .section-content .view .file dd a i:after {
+              content: ")"; }
+  .notice-view .section-content .btn-area {
+    margin-top: 20px; }
+    .notice-view .section-content .btn-area p .btn-lg {
+      width: 300px;
+      height: 38px;
+      line-height: 36px; }
+
+/*# sourceMappingURL=notice.css.map */

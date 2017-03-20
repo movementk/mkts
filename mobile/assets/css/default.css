@@ -139,6 +139,9 @@ body {
           font-size: 13px;
           color: #4c4c4c;
           font-family: 'fontello'; }
+      #nav .nav-container .nav-content .gnb > li.link a:focus {
+        background-color: #a6bf21;
+        color: #fff; }
       #nav .nav-container .nav-content .gnb > li > ul {
         display: none;
         border-bottom: 1px solid #bababa;

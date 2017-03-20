@@ -5,13 +5,14 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
     <main id="content">
         <ul class="visual-slide">
-            <li><img src="/mobile/assets/images/main/main_visual_img.jpg" class="img-responsive" alt=""></li>
-            <li><img src="/mobile/assets/images/main/main_visual_img.jpg" class="img-responsive" alt=""></li>
-            <li><img src="/mobile/assets/images/main/main_visual_img.jpg" class="img-responsive" alt=""></li>
+            <li><img src="/mobile/assets/images/main/main_visual_img01.jpg" class="img-responsive" alt=""></li>
+            <li><img src="/mobile/assets/images/main/main_visual_img02.jpg" class="img-responsive" alt=""></li>
+            <li><img src="/mobile/assets/images/main/main_visual_img03.jpg" class="img-responsive" alt=""></li>
+            <li><img src="/mobile/assets/images/main/main_visual_img04.jpg" class="img-responsive" alt=""></li>
         </ul>
         <div class="information">
             <div class="product">
-                <a href="#">
+                <a href="/mobile/production/product.php">
                     <div class="info-text">
                         <small>Introduction</small>
                         <h2>PRODUCT</h2>
@@ -20,7 +21,7 @@
                 </a>
             </div>
             <div class="counsel">
-                <a href="#">
+                <a href="/mobile/estimate/request_list.php">
                     <div class="info-text">
                         <small>Online</small>
                         <h2>COUNSEL</h2>
@@ -29,7 +30,7 @@
                 </a>
             </div>
             <div class="location">
-                <a href="#">
+                <a href="/mobile/introduce/location.php">
                     <div class="info-text">
                         <small>Customer Center</small>
                         <h2>LOCATION</h2>

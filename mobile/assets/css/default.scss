@@ -139,6 +139,14 @@ body {
                         }
                         
                     }
+                    &.link {
+                        a {
+                            &:focus {
+                                background-color: #a6bf21;
+                                color: #fff;
+                            }
+                        }
+                    }
                     > ul {
                         display: none;
                         border-bottom: 1px solid #bababa;

@@ -35,10 +35,10 @@
                         <li><a href="/mobile/production/product.php">- 제품소개</a></li>
                     </ul>
                 </li>
-                <li>
+                <li class="link">
                     <a href="/mobile/estimate/request_list.php">견적의뢰</a>
                 </li>
-                <li>
+                <li class="link">
                     <a href="/mobile/notice/notice_list.php">공지사항</a>
                 </li>
             </ul>

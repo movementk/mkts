@@ -1,6 +1,6 @@
 //gnb 메뉴
 (function($) {
-    $(document).on('click', '#nav .gnb > li > a', function(e) {
+    $(document).on('click', '#nav .gnb > .more > a', function(e) {
         if ($(this).parent().hasClass('active')) {
             $(this).parent().removeClass('active');
         } else {

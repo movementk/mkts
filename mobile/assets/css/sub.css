@@ -234,6 +234,7 @@ label {
     .btn-area p .btn.btn-white {
       color: #666;
       line-height: 32px;
-      border: 1px solid #ccc; }
+      border: 1px solid #ccc;
+      background-color: #fff; }
 
 /*# sourceMappingURL=sub.css.map */

@@ -11,7 +11,7 @@
     }
 }
 
-//제품견적의뢰
+//제품견적의뢰 리스트
 .request-list {
     padding-bottom: 40px;
     .section-content {
@@ -105,6 +105,569 @@
         }
         .paging {
             margin-top: 45px;
+        }
+    }
+}
+
+//제품견적의뢰 글쓰기
+.request-write {
+    padding-bottom: 60px;
+    .section-content {
+        .table-wrap {
+            .table {
+                margin-bottom: 30px;
+                border: 0;
+                border-top: 1px solid #9b7e58;
+                tbody {
+                    tr {
+                        th {
+                            font-size: 13px;
+                            color: #666;
+                            font-weight: 300;
+                            vertical-align: middle;
+                            padding: 10px;
+                            border: 0;
+                            border-bottom: 1px solid #dfdfdf;
+                            background-color: #f3f3f3;
+                            label {
+                                font-size: 13px;
+                                color: #666;
+                                font-weight: 300;
+                            }
+                            &.e-mail {
+                                vertical-align: top;
+                            }
+                            &.box-type {
+                                vertical-align: top;
+                            }
+                            &.box-content {
+                                vertical-align: top;
+                                i {
+                                    font-style: normal;
+                                    font-size: 13px;
+                                    color: #999;
+                                    &:before {
+                                        content: "(";
+                                    }
+                                    &:after {
+                                        content: ")";
+                                    }
+                                }
+                            }
+                            &.captcha {
+                                vertical-align: top;
+                            }
+                        }
+                        td {
+                            font-size: 13px;
+                            color: #333;
+                            padding: 10px;
+                            vertical-align: middle;
+                            border: 0;
+                            border-bottom: 1px solid #dfdfdf;
+                            background-color: #fff;
+                            label {
+                                font-weight: 300;
+                                font-size: 13px;
+                                color: #333;
+                                font-weight: 300;
+                                &:nth-of-type(2) {
+                                    margin-left: 10px;
+                                    margin-right: 10px;
+                                }
+                                &:nth-of-type(3) {
+                                    margin-top: 10px;
+                                }
+                                input {
+                                    vertical-align: middle;
+                                    margin-right: 5px;
+                                    margin-top: -2px;
+                                }
+                            }
+                            .form-group {
+                                .form-control {
+                                    max-width: 180px;
+                                    height: 30px;
+                                    border: 1px solid #dfdfdf;
+                                }
+                            }
+                            &.e-mail {
+                                .form-group {
+                                    .form-control {
+                                        display: inline-block;
+                                        width: 75px;
+                                        &:nth-of-type(1) {
+                                            margin-right: 5px;
+                                        }
+                                        &:nth-of-type(2) {
+                                            margin-left: 5px;
+                                        }
+                                    }
+                                    select {
+                                        width: 180px !important;
+                                        margin-top: 10px;
+                                    }
+                                }
+                            }
+                            &.phone {
+                                .form-group {
+                                    .form-control {
+                                        display: inline-block;
+                                        width: 45px;
+                                        padding-left: 5px;
+                                        padding-right: 5px;
+                                        margin-left: 3px;
+                                        margin-right: 3px;
+                                        &:first-child {
+                                            margin-left: 0;
+                                        }
+                                        &:last-child {
+                                            margin-right: 0;
+                                        }
+                                    }
+                                    select {
+                                        width: 60px !important;
+                                    }
+                                }
+                            }
+                            &.count {
+                                .form-group {
+                                    .form-control {
+                                        display: inline-block;
+                                        width: 165px;
+                                        margin-right: 5px;
+                                    }
+                                }
+                            }
+                            &.box-content {
+                                .form-group {
+                                    .form-control {
+                                        width: 100%;
+                                        height: 120px;
+                                    }
+                                }
+                            }
+                            &.file {
+                                .form-group {
+                                    .form-control {
+                                        width: 140px;
+                                        display: inline-block;
+                                        margin-right: 10px;
+                                    }
+                                    label {
+                                        width: 30px;
+                                        height: 30px;
+                                        text-align: center;
+                                        vertical-align: top;
+                                        background-color: #c1c1c1;
+                                        .icon-upload {
+                                            font-size: 14px;
+                                            color: #fff;
+                                            line-height: 26px;
+                                        }
+                                    }
+                                }
+                            }
+                            &.captcha {
+                                padding-top: 20px;
+                                padding-bottom: 20px;
+                                .summary {
+                                    font-size: 12px;
+                                    color: #999;
+                                    line-height: 16px;
+                                }
+                                .form-group {
+                                    .form-control {
+                                        margin: 10px 0;
+                                    }
+                                }
+                                .attention {
+                                    font-size: 12px;
+                                    color: #666;
+                                    line-height: 16px;
+                                    margin-bottom: 10px;
+                                    &:before {
+                                        content: "※";
+                                        margin-right: 5px;
+                                    }
+                                }
+                                .captcha-box {
+                                    width: 100%;
+                                    height: 70px;
+                                    text-align: center;
+                                    line-height: 70px;
+                                    background-color: #f8d6cd;
+                                }
+                                > .btn-area {
+                                    p {
+                                        text-align: right;
+                                        .btn-captcha {
+                                            width: 120px;
+                                            height: 30px;
+                                            font-size: 12px;
+                                            color: #999;
+                                            line-height: 28px;
+                                            margin-top: 10px;
+                                            border: 1px solid #dfdfdf;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//제품견적의뢰 보기
+.request-view {
+    padding-bottom: 60px;
+    .view {
+        .article-header {
+            padding: 20px 10px;
+            border-top: 2px solid #9b7e58;
+            background-color: #f3f3f3;
+            h5 {
+                font-size: 16px;
+                color: #222;
+                font-weight: 300;
+            }
+        }
+        .article-content {
+            background-color: #fff;
+            .view-info {
+                padding: 15px 10px;
+                border-bottom: 1px solid #dfdfdf;
+                li {
+                    display: inline-block;
+                    &:after {
+                        display: inline-block;
+                        content: "|";
+                        font-size: 13px;
+                        color: #d8d8d8;
+                        margin: 0 10px;
+                    }
+                    &:last-child:after {
+                        content: "";
+                        margin: 0;
+                    }
+                    dl {
+                        display: inline-block;
+                        dt {
+                            display: inline-block;
+                            font-size: 12px;
+                            color: #666;
+                            font-weight: 300;
+                            margin-right: 10px;
+                        }
+                        dd {
+                            display: inline-block;
+                            font-size: 12px;
+                            color: #666;
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+            .user-info {
+                padding: 15px 10px;
+                border-bottom: 1px solid #dfdfdf;
+                > .box-type {
+                    overflow: hidden;
+                    > dt {
+                        float: left;
+                        width: 70px;
+                        color: #666;
+                        font-size: 12px;
+                        font-weight: 300;
+                    }
+                    > dd {
+                        float: left;
+                        label {
+                            font-size: 12px;
+                            color: #333;
+                            font-weight: 300;
+                            margin-right: 7px;
+                            input {
+                                vertical-align: middle;
+                                margin-top: -2px;
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+                }
+                > ul {
+                    margin: 10px 0;
+                    > li {
+                        display: inline-block;
+                        &:after {
+                            content: "|";
+                            font-size: 13px;
+                            color: #d8d8d8;
+                            margin: 0 10px;
+                        }
+                        &:last-child:after {
+                            content: "";
+                            margin: 0;
+                        }
+                        > dl {
+                            display: inline-block;
+                            dt {
+                                display: inline-block;
+                                font-size: 12px;
+                                color: #666;
+                                font-weight: 300;
+                                margin-right: 10px;
+                            }
+                            dd {
+                                display: inline-block;
+                                font-size: 12px;
+                                color: #999;
+                                font-weight: 300;
+                            }
+                        }
+                    }
+                }
+                > .email {
+                    dt {
+                        display: inline-block;
+                        font-weight: 300;
+                        font-size: 12px;
+                        color: #666;
+                        margin-right: 10px;
+                    }
+                    dd {
+                        display: inline-block;
+                        font-weight: 300;
+                        font-size: 12px;
+                        color: #999;
+                    }
+                }
+            }
+            .view-content {
+                font-size: 13px;
+                color: #4e4e4e;
+                line-height: 22px;
+                padding: 25px 10px 40px;
+                min-height: 260px;
+                border-bottom: 1px solid #dfdfdf;
+            }
+            .file {
+                overflow: hidden;
+                padding: 15px 10px;
+                dl {
+                    dt {
+                        float: left;
+                        width: 114px;
+                        font-size: 12px;
+                        color: #666;
+                        font-weight: 300;
+                        background-image: url(/mobile/assets/images/estimate/icon_file.png);
+                        background-size: 13px 13px;
+                        background-repeat: no-repeat;
+                        background-position: 0 2px;
+                        padding-left: 20px;
+                    }
+                    dd {
+                        padding-left: 114px;
+                        a {
+                            font-size: 12px;
+                            color: #666;
+                            font-weight: 300;
+                            .capacity {
+                                font-style: normal;
+                                margin-left: 2px;
+                                &:before {
+                                    content: "(";
+                                }
+                                &:after {
+                                    content: ")";
+                                }
+                            }
+                        }
+                        &:after {
+                            content: ",";
+                            margin-right: 5px;
+                        }
+                        &:last-child:after {
+                            content: "";
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .btn-area {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        p {
+            .btn-sm {
+                width: 93px;
+                height: 34px;
+                line-height: 32px;
+            }
+            .btn-lg {
+                margin-top: 10px;
+                width: 300px;
+                height: 34px;
+                line-height: 32px;
+            }
+        }
+    }
+    .comment-write {
+        padding: 15px 10px;
+        border: 1px solid #e0e0e0;
+        background-color: #f1f1f1;
+        .form-group {
+            position: relative;
+            padding-right: 90px;
+            .form-control {
+                height: 30px;
+            }
+            .btn-default {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 80px;
+                height: 30px;
+                font-size: 12px;
+                color: #fff;
+                line-height: 28px;
+                background-color: #666;
+            }
+        }
+    }
+    .comment-list {
+        margin-top: 45px;
+        > li {
+            overflow: hidden;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #dfdfdf;
+            &:first-child {
+                padding-top: 0;
+            }
+            &.reply {
+                position: relative;
+                &:before {
+                    position: absolute;
+                    top: 28px;
+                    left: 0;
+                    font-family: 'fontello';
+                    font-size: 16px;
+                    content: "\E80B";
+                }
+                dl {
+                    padding-left: 20px;
+                }
+            }
+            > dl {
+                float: left;
+                > dt {
+                    display: inline-block;
+                    font-size: 12px;
+                    color: #333;
+                    font-weight: 300;
+                    margin-right: 25px;
+                }
+                > dd {
+                    &.date {
+                        display: inline-block;
+                        @include lato;
+                        font-size: 12px;
+                        color: #666;
+                        font-weight: 300;
+                    }
+                }
+            }
+            > ul {
+                float: right;
+                font-size: 0;
+                > li {
+                    display: inline-block;
+                    &:after {
+                        font-size: 13px;
+                        content: "|";
+                        color: #d8d8d8;
+                        margin: 0 10px;
+                    }
+                    &:last-child:after {
+                        content: "";
+                        margin: 0;
+                    }
+                    a {
+                        font-size: 11px;
+                        color: #999;
+                    }
+                }
+            }
+            .comment-view {
+                clear: both;
+                font-size: 11px;
+                color: #999;
+                line-height: 18px;
+                padding-top: 15px;
+            }
+        }
+    }
+}
+
+//비밀번호확인
+.pw-confirm {
+    padding-bottom: 50px;
+    .section-content {
+        .confirm {
+            padding-top: 40px;
+            padding-bottom: 55px;
+            text-align: center;
+            background-color: #fff;
+            figure {
+                img {
+                    width: 73px;
+                    margin-bottom: 25px;
+                }
+                figcaption {
+                    h5 {
+                        font-size: 24px;
+                        color: #9b7e58;
+                        font-weight: 300;
+                    }
+                    i {
+                        display: block;
+                        font-style: normal;
+                        font-size: 30px;
+                        color: #9b7e58;
+                        line-height: 50px;
+                        letter-spacing: 8px;
+                    }
+                    p {
+                        font-size: 13px;
+                        color: #666;
+                        margin-top: -15px;
+                    }
+                }
+            }
+            .confirm-form {
+                width: 215px;
+                margin: 0 auto;
+                margin-top: 25px;
+                .form-group {
+                    .form-control {
+                        margin-bottom: 10px;
+                    }
+                    .btn-lg {
+                        width: 100%;
+                        height: 38px;
+                        font-size: 13px;
+                        color: #fff;
+                        line-height: 36px;
+                        background-color: #666;
+                    }
+                }
+            }
         }
     }
 }
