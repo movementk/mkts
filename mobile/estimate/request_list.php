@@ -40,7 +40,7 @@
                             <span class="request-box1">상담완료</span>
                             <p class="subject">
                                 <a href="#">
-                                    TV 포장박스 문의 입니다.
+                                    TV 포장박스 문의 입니다.TV 포장박스 문의 입니다.TV 포장박스 문의 입니다.
                                     <i class="comment-count">(1)<span class="sr-only">댓글수</span></i>
                                     <i class="attach"><span class="sr-only">첨부파일</span></i>
                                     <i class="icon-key"><span class="sr-only">비밀글</span></i>

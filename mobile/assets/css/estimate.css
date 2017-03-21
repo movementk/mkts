@@ -73,7 +73,6 @@ a:hover, a:focus {
         line-height: 14px;
         margin-bottom: 15px; }
         .request-list .section-content .list > li .subject a i {
-          display: inline-block;
           vertical-align: top; }
           .request-list .section-content .list > li .subject a i.comment-count {
             font-size: 16px;
